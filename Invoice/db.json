@@ -1,0 +1,720 @@
+{
+  "posts": [
+    {
+      "id": "2cff",
+      "ProductType": "werty",
+      "ProductTitle": "zxcvbn",
+      "SelectCompany": "futu",
+      "ExpiryDate": "2024-01-30",
+      "ProductCode": "234",
+      "TotalStock": "pokjpok",
+      "CostItem": "gcljhihhe",
+      "manufacturedate": "2024-01-02",
+      "discription": "urxtrdtfyyuh"
+    }
+  ],
+  "company": [],
+  "login": [
+    {
+      "id": "fb67",
+      "phoneNumber": "1234567890",
+      "email": "aruna@gmail.com",
+      "userName": "aruna",
+      "Password": "123"
+    }
+  ],
+  "customerDetailes": [
+    {
+      "id": "902f",
+      "cName": "ravi",
+      "cMobile": "967898789",
+      "date": "27-1-2024 -",
+      "products": [],
+      "order_id": "or1706367176691"
+    },
+    {
+      "id": "2ea5",
+      "cName": "mani",
+      "cMobile": "999999999999",
+      "date": "27-1-2024 -",
+      "products": [],
+      "order_id": "or1706367499062"
+    },
+    {
+      "id": "08f7",
+      "cName": "nhbbvnb",
+      "cMobile": "888",
+      "date": "27-1-2024 -",
+      "products": [],
+      "order_id": "or1706367572176"
+    },
+    {
+      "id": "d08b",
+      "cName": "ssadas",
+      "cMobile": "43434",
+      "date": "27-1-2024 -",
+      "products": [],
+      "order_id": "or1706367650650"
+    },
+    {
+      "id": "40d8",
+      "cName": "mani",
+      "cMobile": "767657",
+      "date": "27-1-2024 -",
+      "products": [],
+      "order_id": "or1706367719424"
+    },
+    {
+      "id": "b049",
+      "cName": "uthayam",
+      "cMobile": "95783848374",
+      "date": "27-1-2024 -",
+      "products": [],
+      "order_id": "or1706367781494"
+    },
+    {
+      "id": "3cfd",
+      "cName": "siva",
+      "cMobile": "234234",
+      "date": "27-1-2024 -",
+      "products": [],
+      "order_id": "or1706367957528"
+    },
+    {
+      "id": "1efe",
+      "cName": "ssssssss",
+      "cMobile": "324324",
+      "date": "27-1-2024 -",
+      "products": [
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344
+        }
+      ],
+      "order_id": "or1706368275562"
+    },
+    {
+      "id": "593f",
+      "cName": "karthik",
+      "cMobile": "9999999999",
+      "date": "27-1-2024 -",
+      "products": [
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344
+        },
+        {
+          "product_id": "pr3",
+          "product_name": "toooo",
+          "price": 333
+        }
+      ],
+      "order_id": "or1706368451118"
+    },
+    {
+      "id": "157b",
+      "cName": "uthayam",
+      "cMobile": "87877878778",
+      "date": "27-1-2024 -",
+      "products": [
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "qty": 88
+        }
+      ],
+      "order_id": "or1706368837138"
+    },
+    {
+      "id": "df1c",
+      "cName": "gyuvyu",
+      "cMobile": "hbhu",
+      "date": "27-1-2024 -",
+      "products": [
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "qty": 76
+        }
+      ],
+      "order_id": "or1706369352743"
+    },
+    {
+      "id": "2bea",
+      "cName": "fffffff",
+      "cMobile": "33333",
+      "date": "27-1-2024 -",
+      "products": [
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "qty": 23
+        }
+      ],
+      "order_id": "or1706369600872"
+    },
+    {
+      "id": "5e44",
+      "cName": "",
+      "cMobile": "",
+      "date": "28-1-2024 -",
+      "products": [],
+      "order_id": "or1706449727403"
+    },
+    {
+      "id": "b583",
+      "cName": "",
+      "cMobile": "",
+      "date": "28-1-2024 -",
+      "products": [],
+      "order_id": "or1706450710812"
+    },
+    {
+      "id": "e3ce",
+      "cName": "",
+      "cMobile": "",
+      "date": "28-1-2024 -",
+      "products": [],
+      "order_id": "or1706452302835"
+    },
+    {
+      "id": "36b5",
+      "cName": "jhj",
+      "cMobile": "ngjh",
+      "date": "28-1-2024 -",
+      "products": [],
+      "order_id": "or1706453042609"
+    },
+    {
+      "id": "2bfd",
+      "cName": "hghghgj",
+      "cMobile": "jhghjghgh",
+      "date": "28-1-2024 -",
+      "products": [],
+      "order_id": "or1706453292019"
+    },
+    {
+      "id": "948c",
+      "cName": "nvhnbn",
+      "cMobile": "jhggjhg",
+      "date": "28-1-2024 -",
+      "products": [
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "id": "f960",
+          "qty": 788779
+        }
+      ],
+      "order_id": "or1706453392788"
+    },
+    {
+      "id": "e392",
+      "cName": "hjgjhghj",
+      "cMobile": "nnbnn",
+      "date": "28-1-2024 -",
+      "products": [],
+      "order_id": "or1706453575399"
+    },
+    {
+      "id": "75ba",
+      "cName": "hghghgj",
+      "cMobile": "jhggh",
+      "date": "28-1-2024 -",
+      "products": [],
+      "order_id": "or1706453630145"
+    },
+    {
+      "id": "295e",
+      "cName": "jhbjhjhjkh",
+      "cMobile": "jhbhjj",
+      "date": "28-1-2024 -",
+      "products": [
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "id": "f960",
+          "qty": 99
+        }
+      ],
+      "order_id": "or1706453774425"
+    },
+    {
+      "id": "8e5f",
+      "cName": "xcvxcvx",
+      "cMobile": "vxvxvx",
+      "date": "28-1-2024 -",
+      "products": [
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "id": "f960",
+          "qty": 9879789
+        }
+      ],
+      "order_id": "or1706453983555"
+    },
+    {
+      "id": "24d3",
+      "cName": "hjgjhj",
+      "cMobile": "hjgjghjgj",
+      "date": "28-1-2024 -",
+      "products": [
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 878
+        },
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "id": "f960",
+          "qty": 878999
+        }
+      ],
+      "order_id": "or1706454029356"
+    },
+    {
+      "id": "63cb",
+      "cName": "vhghgh",
+      "cMobile": "ghghgfgf",
+      "date": "28-1-2024 -",
+      "products": [
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "id": "f960",
+          "qty": 897
+        },
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 897
+        },
+        {
+          "product_id": "pr3",
+          "product_name": "toooo",
+          "price": 333,
+          "id": "2032",
+          "qty": 897887878
+        }
+      ],
+      "order_id": "or1706454096999"
+    },
+    {
+      "id": "801d",
+      "cName": "ravuiiiiii",
+      "cMobile": "8787878787",
+      "date": "28-1-2024 -",
+      "products": [
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "id": "f960",
+          "qty": 7878787878
+        },
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 7
+        }
+      ],
+      "order_id": "or1706454525977"
+    },
+    {
+      "id": "e84c",
+      "cName": "jhgjhhghjgj",
+      "cMobile": "hjgjhghj",
+      "date": "28-1-2024 -",
+      "products": [
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "id": "f960",
+          "qty": 88
+        }
+      ],
+      "order_id": "or1706455650978"
+    },
+    {
+      "id": "38d5",
+      "cName": "hgfgfgf",
+      "cMobile": "hfhfh",
+      "date": "28-1-2024 -",
+      "products": [
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "id": "f960",
+          "qty": 88
+        }
+      ],
+      "order_id": "or1706455716763"
+    },
+    {
+      "id": "1b24",
+      "cName": "hgh",
+      "cMobile": "mhj",
+      "date": "28-1-2024 -",
+      "products": [
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 88
+        },
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 88
+        },
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 88
+        }
+      ],
+      "order_id": "or1706455746062"
+    },
+    {
+      "id": "5a88",
+      "cName": "hggfh",
+      "cMobile": "ghfhh",
+      "date": "28-1-2024 -",
+      "products": [
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "id": "f960",
+          "qty": 66
+        }
+      ],
+      "order_id": "or1706455830249"
+    },
+    {
+      "id": "3e67",
+      "cName": "ghgh",
+      "cMobile": "hjghgh",
+      "date": "28-1-2024 -",
+      "products": [
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "id": "f960",
+          "qty": 77
+        },
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "id": "f960",
+          "qty": 77
+        },
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 99
+        }
+      ],
+      "order_id": "or1706455880866"
+    },
+    {
+      "id": "a333",
+      "cName": "uihijh",
+      "cMobile": "bhbh",
+      "date": "28-1-2024 -",
+      "products": [
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "id": "f960",
+          "qty": 99
+        }
+      ],
+      "order_id": "or1706456012161"
+    },
+    {
+      "id": "fd8f",
+      "cName": "vhvh",
+      "cMobile": "bjug",
+      "date": "28-1-2024 -",
+      "products": [
+        {
+          "product_id": "pr3",
+          "product_name": "toooo",
+          "price": 333,
+          "id": "2032",
+          "qty": 2
+        },
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 2
+        }
+      ],
+      "order_id": "or1706456185015"
+    },
+    {
+      "id": "c8c3",
+      "cName": "ravuiiiiii",
+      "cMobile": "7878787878",
+      "date": "28-1-2024 -",
+      "products": [
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "id": "f960",
+          "qty": 8787878787
+        },
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 2
+        }
+      ],
+      "order_id": "or1706457243585"
+    },
+    {
+      "id": "49a4",
+      "cName": "ravi",
+      "cMobile": "sdfsdf",
+      "date": "28-1-2024 -",
+      "products": [
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "id": "f960",
+          "qty": 2
+        },
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 5
+        }
+      ],
+      "order_id": "or1706457992495",
+      "total_amount": 0
+    },
+    {
+      "id": "65ed",
+      "cName": "uthaym",
+      "cMobile": "dfsdfs",
+      "date": "28-1-2024 -",
+      "products": [
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "id": "f960",
+          "qty": 3
+        },
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 5
+        }
+      ],
+      "order_id": "or1706458065377",
+      "total_amount": 1032
+    },
+    {
+      "id": "17e7",
+      "cName": "ravuiiiiii",
+      "cMobile": "8787878787",
+      "date": "29-1-2024 -",
+      "products": [
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "id": "f960",
+          "qty": 2
+        },
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 4
+        }
+      ],
+      "order_id": "or1706494065375",
+      "total_amount": 688
+    },
+    {
+      "id": "1e4c",
+      "cName": "ravuiiiiii",
+      "cMobile": "8787878787",
+      "date": "29-1-2024 -",
+      "products": [
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "id": "f960",
+          "qty": 2
+        },
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 2
+        }
+      ],
+      "order_id": "or1706495033904",
+      "total_amount": 688
+    },
+    {
+      "id": "37e9",
+      "cName": "ravuiiiiii",
+      "cMobile": "8787878787",
+      "date": "29-1-2024 -",
+      "products": [
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 2
+        },
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "id": "f960",
+          "qty": 4
+        }
+      ],
+      "order_id": "or1706502489536",
+      "total_amount": 678
+    },
+    {
+      "id": "15bc",
+      "cName": "",
+      "cMobile": "",
+      "date": "29-1-2024 -",
+      "products": [],
+      "order_id": "or1706511804726"
+    },
+    {
+      "id": "3350",
+      "cName": "",
+      "cMobile": "",
+      "date": "29-1-2024 -",
+      "products": [
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 4
+        }
+      ],
+      "order_id": "or1706511892126",
+      "total_amount": 0
+    },
+    {
+      "id": "f12d",
+      "cName": "",
+      "cMobile": "",
+      "date": "29-1-2024 -",
+      "products": [
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "id": "f960",
+          "qty": 2
+        }
+      ],
+      "order_id": "or1706514368141",
+      "total_amount": 0
+    }
+  ],
+  "products": [
+    {
+      "product_id": "pr1",
+      "product_name": "tomoto",
+      "price": 344,
+      "id": "f960"
+    },
+    {
+      "product_id": "pr2",
+      "product_name": "egg",
+      "price": 339,
+      "id": "201f"
+    },
+    {
+      "product_id": "pr3",
+      "product_name": "toooo",
+      "price": 333,
+      "id": "2032"
+    }
+  ],
+  "productList": [
+    {
+      "pProductType": "a",
+      "pProductCode": "56",
+      "pProductTitle": "mani",
+      "pTotalStock": "3456",
+      "pSelectCompany": "mbb",
+      "pCost": "548",
+      "pExpiryDate": "27-01-2024",
+      "pManufactureDate": "27-01-2024",
+      "pDescribtion": "nhcxr",
+      "id": "7d00"
+    },
+    {
+      "id": "5183",
+      "pProductType": "",
+      "pProductCode": "n jnknk",
+      "pProductTitle": " j kn k",
+      "pTotalStock": " j j j",
+      "pSelectCompany": "hgcc",
+      "pCost": 6564,
+      "pExpiryDate": "2024-01-27",
+      "pManufactureDate": "2024-01-27",
+      "pDescribtion": "nbhjvghxfgxyfiuhjop,lm"
+    }
+  ]
+}

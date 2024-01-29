@@ -1,0 +1,51 @@
+<div class="dashboard">
+    <aside class="sidebar">
+      <div class="profile-section">
+       
+        <h3>Invoice</h3>
+      </div>
+      <nav class="nav-menu">
+        <ul>
+          <li><a [routerLink]="['sale']">Start sell</a></li>
+          <li><a [routerLink]="['order-report']">Order report</a></li>
+          <li><a [routerLink]="['add-product']">Add Product</a></li>
+          
+          <li><a>Product Report</a></li>
+          <li><a [routerLink]="['add-company']">Add Company</a></li>
+          <li><a>Company Report</a></li>
+          <li><a [routerLink]="['add-category']">Add Category</a></li>
+          <li><a>Category Report</a></li>
+          <li><a>Logout</a></li>
+       
+       
+       
+       
+        </ul>
+      </nav>
+    </aside>
+    <div class="main-content">
+      <header class="topbar">
+        <div class="topbar-left">
+          <div class="logo">
+            <strong>Sells Dashboard</strong>
+          </div>
+        </div>
+        <div class="topbar-right">
+          <button class='btn btn-sm'>Logout</button>
+        
+        </div>
+      </header>
+      <div class="content">
+      <div class='card'>
+        <div class='card-body'>
+
+            <router-outlet></router-outlet>
+
+      
+   
+        </div>
+
+      </div>
+      </div>
+    </div>
+  </div>

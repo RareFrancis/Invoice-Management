@@ -1,0 +1,105 @@
+<h3 class="text-danger">Customer and Order Details</h3>
+<div *ngIf="!isViewDetails">
+  <div *ngIf="!isSellReport">
+    <form class='row' [formGroup]="saleForm">
+      <div class='col-md-6 mt-3'>
+        <label for="blogName" class='form-control-label'>Customer Name</label>
+        <input type="text" id="blogName" class="form-control form-control-md" name="blogName" formControlName="cName"
+          placeholder="Enter Customer Name">
+      </div>
+
+      <div class='col-md-6 mt-3'>
+        <label for="blogContent">Mobile Number</label>
+        <input placeholder='Enter Mobile Number' id="blogContent" formControlName="cMobile" class="form-control">
+        <button type="submit" (click)="sellStart()" class="float-right mt-3 btn btn-outline-warning">Start Sell</button>
+      </div>
+
+
+
+    </form>
+  </div>
+
+
+  <div *ngIf="isSellReport">
+
+    <div class="container mt-3">
+      <div *ngFor="let Customer of customerData">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>Order Id</th>
+              <td>{{Customer.id}}</td>
+              <th>Order Date</th>
+              <td>{{Customer.date}}</td>
+            </tr>
+            <tr>
+              <th>Customer Name</th>
+              <td>{{Customer.cName}}</td>
+              <th>Customer Mobile</th>
+              <td>{{Customer.cMobile}}</td>
+            </tr>
+          </thead>
+        </table>
+      </div>
+    </div>
+
+
+
+    <h3 class="text-danger">Add items into Cart</h3>
+    <form class='row' [formGroup]="productAdd">
+      <div class='col-md-6 mt-3'>
+        <label for="blogName" class='form-control-label'>Product Name</label>
+
+        <select class="form-control" formControlName="product_id">
+          <option *ngFor="let product of productList" value={{product.product_id}}>{{product.product_name}}</option>
+
+        </select>
+      </div>
+
+      <div class='col-md-6 mt-3'>
+        <label for="blogContent">Quantity</label>
+        <input type="number" placeholder='Quantity' formControlName="qty" id="blogContent" class="form-control">
+        <button type="submit" (click)="addProduct()" class="float-right btn btn-primary mt-3 mb-3 ms-4">Add Item</button>
+      </div>
+
+
+      
+
+    </form>
+    <div>
+
+      <div *ngFor="let pro of allData">
+        <h3 class="text-danger">Order Details</h3>
+        <table class="table">
+          <tr>
+            <th>Product Name</th>
+
+            <th>Price per unit</th>
+            <th>Total units</th>
+            <th>Total cost</th>
+
+          </tr>
+          <tr *ngFor="let pros of pro.products">
+            <td>{{pros.product_name}}</td>
+            <td>{{pros.price}}</td>
+            <td>{{pros.qty}}</td>
+            <td>{{pros.qty * pros.price}}</td>
+
+          </tr>
+          <tr>
+
+            <th></th>
+            <th></th>
+            <th>total</th>
+            <th>{{pro.Total}}</th>
+          </tr>
+        </table>
+        <button type="button" (click)="save()" class="d-block float-right btn btn-outline-success">Save Sell
+          Details</button>
+      </div>
+
+    </div>
+
+
+  </div>
+</div>

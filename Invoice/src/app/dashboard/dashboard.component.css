@@ -1,0 +1,96 @@
+.dashboard {
+    display: flex;
+    height: 100vh;
+    background-color: #34495e;
+  }
+  
+  .sidebar {
+    width: 250px;
+
+    color: #ecf0f1;
+    padding: 20px;
+  }
+  
+  .profile-section {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Updated to use gap instead of column-gap for better browser support */
+    margin-bottom: 30px;
+  }
+  
+  .profile-section h3 {
+    margin: 0;
+    color: #ecf0f1; /* Optional: Adjust the color to make the username stand out more */
+  }
+  
+ /* Navigation Menu */
+.nav-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    column-gap : 30px;
+    flex-direction: column;
+    align-items: flex-start; /* Aligns items to the start of the container */
+  }
+  
+  .nav-menu li {
+    padding: 10px 20px; /* Adjust padding to align with the profile icon */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+    transition: all 0.3s ease;
+    border-radius: 4px;
+    width: 100%; /* Ensures full width for the hover effect */
+  }
+  
+  .nav-menu li:hover, .nav-menu li.active {
+    background-color: #3B4C64; /* A lighter shade for hover/active state */
+    color: #FFFFFF;
+  }
+  
+  .nav-menu a {
+    color: inherit; /* Inherits color from parent */
+    text-decoration: none; /* No underline for links */
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    width: 100%; /* Ensures the link takes full width of the list item */
+  }
+  
+  .nav-menu a:hover {
+    text-decoration: none; /* No underline on hover */
+  }
+  
+  
+  .main-content {
+    flex: 1;
+    background-color: #ecf0f1;
+  }
+  
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .topbar-left .logo {
+    font-weight: bold;
+    color: #34495e;
+  }
+  
+  .topbar-right .icon {
+    font-size: 20px;
+    color: #34495e;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  
+  .content {
+    padding: 20px;
+  }

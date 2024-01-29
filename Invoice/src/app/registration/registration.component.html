@@ -1,0 +1,53 @@
+<section id="signup">
+    <div class="register-box">
+        <form [formGroup]="signupForm">
+            <h2>Signup</h2>
+            
+           
+            
+            
+            
+            <div class="formGroup">
+                <div class="input-box">
+                    <span class="icon"><i class='bx bxs-phone' style='color:#ffffff'></i></span>
+                    <input type="text" required name="phonenumber" class="form-control" formControlName="phoneNumber" placeholder="Phone Number">
+                    <label>Phone Number</label>
+                </div>
+            </div>
+            
+            <div class="formGroup">
+                <div class="input-box">
+                    <span class="icon"><i class='bx bxs-envelop' style='color:#ffffff'></i></span>
+                    <input type="email" required name="email" class="form-control" formControlName="email" placeholder="Email">
+                    <label>Email</label>
+                </div>
+            </div>
+            
+            <div class="formGroup">
+                <div class="input-box">
+                    <span class="icon"><i class='bx bxs-user' style='color:#ffffff'></i></span>
+                    <input type="text" required name="userName" class="form-control" formControlName="userName" placeholder="Username">
+                    <label>Username</label>
+                </div>
+            </div>
+            
+            <div class="formGroup">
+                <div class="input-box">
+                    <span class="icon"><i class='bx bxs-lock-alt'></i></span>
+                    <input type="password" required name="Password" class="form-control" formControlName="Password" placeholder="Password">
+                    <label>Password</label>
+                </div>
+            </div>
+            
+            <div class="remember-forgot">
+                <label><input type="checkbox" name="RememberMe"> Remember me</label>
+            </div>
+            
+            <button [disabled]="!signupForm.valid" (click)="addSignup(signupForm.value)" type="button">Signup</button>
+            
+            <div class="register-link">
+                <p>Already have an account? <a routerLink="/loginform">Login</a></p>
+            </div>
+        </form>
+    </div>
+</section>

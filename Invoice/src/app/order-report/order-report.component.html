@@ -1,0 +1,21 @@
+<!-- order-report.component.html -->
+<table>
+    <thead>
+      <tr>
+        <th>Item Name</th>
+        <th>Quantity</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of remainingItems">
+        <td>{{ item.name }}</td>
+        <td>{{ item.quantity }}</td>
+        <td>
+          <button (click)="editItem(item)">Edit</button>
+          <button (click)="deleteItem(item)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  

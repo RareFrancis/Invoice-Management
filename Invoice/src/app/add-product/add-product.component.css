@@ -1,0 +1,28 @@
+.card{
+    width: 1000px;
+    height: 780px;
+    margin-left: 150px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    padding: 31px 40px;
+    border: 1px solid gray;
+    box-shadow: 0 0 10px;
+}
+
+.design{
+    margin-top: 20px;
+}
+.sibn{
+    width:200px;
+    background-color: rgb(255, 94, 0);
+}
+.check{
+    margin-left: 5px;
+}
+.forgot{
+    color: rgb(255, 94, 0);
+    text-decoration: none;
+}
+.ctbn{
+    margin-top: 20px;
+}

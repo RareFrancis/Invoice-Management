@@ -1,0 +1,113 @@
+<!-- <div class="container">
+    <div class="card">
+        <h3>ADD PRODUCT</h3>
+        <form [formGroup]="productForm">
+            <div class="row">
+                <div class="col-md-6">
+<div class="form-group design">
+    <label for="product">Product Type</label>
+<input type="text" class="form-control" formControlName="ProductType">    
+</div>
+<div class="form-group design">
+    <label for="title">Product Title</label>
+    <input type="text" class="form-control"formControlName="ProductTitle">    
+    </div>
+    <div class="form-group design">
+        <label for="select">Select Company</label>
+        <input type="text" class="form-control" formControlName="SelectCompany">    
+        </div>
+        <div class="form-group design">
+            <label for="date">Expiry Date</label>
+            <input type="date" class="form-control"formControlName="ExpiryDate">    
+            </div>
+        </div>   
+
+
+
+        <div class="col-md-6">
+            <div class="form-group design">
+                <label for="code">Product Code</label>
+                <input type="text" class="form-control" formControlName="ProductCode">    
+                </div>
+                <div class="form-group design">
+                    <label for="stock">Total Stock</label>
+                    <input type="text" class="form-control"formControlName="TotalStock">    
+                    </div>
+                    <div class="form-group design">
+                        <label for="item">Cost Item</label>
+                        <input type="text" class="form-control" formControlName="CostItem">    
+                        </div>
+                        <div class="form-group design">
+                            <label for="date">Manufacture Date</label>
+                            <input type="date" class="form-control" formControlName="manufacturedate">    
+                            </div>
+                        </div>   
+
+
+
+                            <div class="form-group mt-5">
+                                <label for="exampleFormControlTextarea1">Discription</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" formControlName="discription" rows="3"></textarea>
+                              </div>
+
+                             </div>  
+  
+            <button (click)="addproduct(this.productForm.value)" [disabled]="this.productForm.invalid" type="button" class="btn btn-warning sibn mt-3">Submit</button>
+        </form> -->
+        <!-- <br>
+        <P style="color: rgb(255, 94, 0); margin-left: 45px; margin-top: 5px; font-weight: 500;">Have an account? <a routerLink="/signin" style="color: rgb(255, 94, 0); font-weight: 500;">Sign In</a></P> -->
+    <!-- </div>
+</div> -->
+
+
+
+
+
+<form class='row' [formGroup]="productForm" >
+    <div class='col-md-6 mt-3'> 
+       <label for="blogName" class='form-control-label'>Select Product Type</label>
+       <input type="text" id="blogName" class="form-control form-control-md" name="blogName" formControlName="ProductType"> 
+    </div>
+
+    <div class='col-md-6 mt-3'>
+      <label for="blogContent">Product Code</label>
+      <input  id="blogContent" formControlName="ProductCode" class="form-control">
+    </div>
+    <div class='col-md-6 mt-3'> 
+        <label for="blogName" class='form-control-label'>Product Title</label>
+        <input type="text" id="blogName" class="form-control form-control-md" name="blogName" formControlName="ProductTitle"> 
+     </div>
+ 
+     <div class='col-md-6 mt-3'>
+       <label for="blogContent">Total Stock</label>
+       <input  id="blogContent" formControlName="TotalStock" class="form-control">
+     </div>
+     <div class='col-md-6 mt-3'> 
+        <label for="blogName" class='form-control-label'>Select Company</label>
+        <input type="text" id="blogName" class="form-control form-control-md" name="blogName" formControlName="SelectCompany"> 
+     </div>
+ 
+     <div class='col-md-6 mt-3'>
+       <label for="blogContent">Cost Per Item</label>
+       <input type="number" id="blogContent" formControlName="CostItem" class="form-control">
+     </div>
+     <div class='col-md-6 mt-3'> 
+        <label for="blogName" class='form-control-label'>Expiry Date</label>
+        <input type="date" id="blogName" class="form-control form-control-md" name="blogName" formControlName="ExpiryDate"> 
+     </div>
+ 
+     <div class='col-md-6 mt-3'>
+       <label for="blogContent">Manufacturing Date</label>
+       <input type="date" id="blogContent" formControlName="manufacturedate" class="form-control">
+     </div>
+     <div class='col-md-12 mt-3'> 
+        <label for="blogName" class='form-control-label'>Describtion</label>
+        <input type="text" id="blogName" class="form-control form-control-md" name="blogName" formControlName="discription"> 
+     </div>
+ 
+     
+ <div class="col-md-6 mt-3">
+
+    <button type="submit"  (click)="addproduct(this.productForm.value)" [disabled]="this.productForm.invalid" class="btn btn-primary">Submit</button>
+</div>
+  </form>
