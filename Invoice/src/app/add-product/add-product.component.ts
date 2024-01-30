@@ -10,6 +10,7 @@ import { ProductService } from '../product.service';
 })
 export class AddProductComponent implements OnInit{
   productForm!:FormGroup;
+  material:any;
 
   constructor(private fb:FormBuilder, private http:HttpClient, private product:ProductService){}
 
@@ -17,12 +18,12 @@ export class AddProductComponent implements OnInit{
   ngOnInit() {
     this.productForm = this.fb.group({
       ProductType: ['', Validators.required],
-      ProductTitle: ['', Validators.required],
+      product_name: ['', Validators.required],
       SelectCompany: ['', Validators.required],
       ExpiryDate: ['', Validators.required],
       ProductCode: ['', Validators.required],
-      TotalStock: ['', Validators.required],
-      CostItem: ['', Validators.required],
+      stock: ['', Validators.required],
+      price: ['', Validators.required],
       manufacturedate: ['', Validators.required],
       discription: ['', Validators.required],
     });
@@ -30,7 +31,11 @@ export class AddProductComponent implements OnInit{
   
 
   addproduct(data:any){
-    this.http.post("http://localhost:3000/posts",this.productForm.value).subscribe(res=>{
+    this.material = this.productForm.value;
+    var currentDate = new Date();
+    this.material["product_id"] = "br"+ currentDate.getTime()
+
+    this.http.post("http://localhost:3000/products",this.material).subscribe(res=>{
       console.log(this.productForm.value);
       alert("submitted successfully");
       this.productForm.reset();

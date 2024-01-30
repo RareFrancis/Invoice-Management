@@ -9,7 +9,7 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./sale.component.css']
 })
 export class SaleComponent {
-  saleForm!:any
+  saleForm!:FormGroup
   customerData!:any
   saleFormData :any
   saleDate:any
@@ -21,10 +21,11 @@ export class SaleComponent {
   totalCost: any;
   allTotalCost: any;
   totalAmount: any;
+  orderQty!: Object;
   constructor(private fb: FormBuilder,private http:HttpClient){
     this.saleForm = this.fb.group({
-      cName: ['', [Validators.required, Validators.minLength(10)]],
-      cMobile: ['', [Validators.required, Validators.maxLength(10)]]
+      cName: ['', [Validators.required]],
+      cMobile: ['', [Validators.required]]
   })
 
   this.productAdd = this.fb.group({
@@ -79,9 +80,18 @@ getProductData(){
 
 
 addProduct(){
+
+  this.http.get("http://localhost:3000/products").subscribe(res=>{
+    this.orderQty = res;
+    console.log(this.orderQty);
+    
+    // const team = this.orderQty.len
+  })
   console.log(this.productAdd.value);
   console.log(this.productList);
   console.log(this.orderProducts);
+
+ 
   
   
   
@@ -136,7 +146,6 @@ addProduct(){
 
 };
 save(){
-  this.allData
   this.isViewDetails = true;
 }
 
