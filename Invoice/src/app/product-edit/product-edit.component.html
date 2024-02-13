@@ -1,0 +1,30 @@
+
+<div class="background">
+    <form class='row' [formGroup]="productEditForm" >
+    
+        <div class='col-md-6 mt-3'>
+          <label for="blogContent">Product Code</label>
+          <input  id="blogContent" formControlName="ProductCode" name="ProductCode" class="form-control">
+        </div>
+        <div class='col-md-6 mt-3'> 
+            <label for="blogName" class='form-control-label'>Product Title</label>
+            <input type="text" id="blogName" class="form-control form-control-md" name="blogName" formControlName="ProductTitle" name="ProductTitle"> 
+         </div>
+     
+         <div class='col-md-6 mt-3'>
+           <label for="blogContent">Total Stock</label>
+           <input  id="blogContent" formControlName="TotalStock" name="TotalStock" class="form-control">
+         </div>
+
+         <div class='col-md-12 mt-3'> 
+            <label for="blogName" class='form-control-label'>Describtion</label>
+            <input type="text" id="blogName" class="form-control form-control-md" name="discription" formControlName="discription"> 
+         </div>
+     
+         
+     <div class="col-md-6 mt-3">
+    
+        <button type="submit"  (click)="addEdit()" class="btn btn-primary">Submit</button>
+    </div>
+      </form>
+    </div>

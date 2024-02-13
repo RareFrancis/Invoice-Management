@@ -16,13 +16,13 @@ export class AddCategoryComponent implements OnInit{
 
   ngOnInit() {
     this.categoryForm = this.fb.group({
-      ProductType: ['', Validators.required],
-      discription: ['', Validators.required],
+      ProductTitle: ['', Validators.required],
+      Discription: ['', Validators.required],
     });
   }
 
   addcategory(data:any){
-    this.http.post("http://localhost:3000/company",this.categoryForm.value).subscribe(res=>{
+    this.http.post("http://localhost:3000/category",this.categoryForm.value).subscribe(res=>{
       console.log(this.categoryForm.value);
       alert("submitted successfully");
       this.categoryForm.reset();

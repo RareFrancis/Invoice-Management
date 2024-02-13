@@ -8,18 +8,27 @@ import { RegistrationComponent } from './registration/registration.component';
 import { SaleComponent } from './sale/sale.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { OrderReportComponent } from './order-report/order-report.component';
+import { CompanyReportComponent } from './company-report/company-report.component';
+import { ProductReportComponent } from './product-report/product-report.component';
+import { CategoryReportComponent } from './category-report/category-report.component';
+import { ProductEditComponent } from './product-edit/product-edit.component';
+import { OrderComponent } from './order/order.component';
 
 
 const routes: Routes = [
-  {path:'',component:DashboardComponent},
+
   {path:'add-product',component:AddProductComponent},
   {path:'add-company',component:AddCompanyComponent},
   {path:'add-category',component:AddCategoryComponent},
+  {path:'product-report',component:ProductReportComponent},
+  {path:'company-report',component:CompanyReportComponent},
+  {path:'category-report',component:CategoryReportComponent},
+  {path:'product-edit',component:ProductEditComponent},
   { path: 'dashboardform', component: DashboardComponent },
   {path:'sale',component:SaleComponent},
   { path: 'loginform', component: LoginformComponent },
   { path: 'registration', component: RegistrationComponent },
-  { path: 'order-report', component: OrderReportComponent },
+  { path: 'order', component: OrderComponent },
   { path: '', redirectTo: '/Dashboard', pathMatch: 'full' },
 ];
 

@@ -1,0 +1,20 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Product Name</th>
+        <th scope="col">Discription</th>
+        <th scope="col">Action</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let items of data">
+        <td>{{items.id}}</td>
+        <td>{{items.ProductTitle}}</td>
+        <td>{{items.Discription}}</td>
+        <td>
+            <button type="button" class="btn btn-danger" (click)="deleteData(items.id)">Delete</button></td>
+      </tr>
+    </tbody>
+  </table>

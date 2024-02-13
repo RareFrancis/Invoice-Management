@@ -1,21 +1,21 @@
 .dashboard {
     display: flex;
     height: 100vh;
-    background-color: #34495e;
   }
   
   .sidebar {
     width: 250px;
-
+    background-color: #FF8E00;
     color: #ecf0f1;
     padding: 20px;
+    border-radius: 0px 24px 24px 0px;
   }
   
   .profile-section {
     display: flex;
     align-items: center;
     gap: 15px; /* Updated to use gap instead of column-gap for better browser support */
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
   
   .profile-section h3 {
@@ -67,7 +67,7 @@
   
   .main-content {
     flex: 1;
-    background-color: #ecf0f1;
+    border-radius: 0px 0px 24px 24px;
   }
   
   .topbar {
@@ -76,7 +76,7 @@
     align-items: center;
     padding: 10px 20px;
     background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 0px 0px 16px 16px;
   }
   
   .topbar-left .logo {
@@ -93,4 +93,44 @@
   
   .content {
     padding: 20px;
+    border-radius: 24px;
+    background-color: rgba(0, 25, 49, .4);
+    /* opacity: .3; */
+    height: 85%;
   }
+
+  .card{
+    border-radius: 16px;
+    border: 0;
+  }
+  .card-body{
+    border: 1px black;
+    
+  }
+  
+  
+  .background{
+    /* background-image: url('/assets/background4.avif'); */
+    background-color: light;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* animation: animateBg 5s linear infinite; */
+}
+
+/* @keyframes animateBg { 
+    100% {
+        filter: hue-rotate(360deg);
+    }
+} */
+
+.hover-btn:hover{
+
+  background-color:  rgb(176, 176, 233);
+  color:  rgba(0, 25, 49);
+
+}
+
+
+
+
+

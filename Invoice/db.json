@@ -1,31 +1,19 @@
 {
-  "posts": [
+  "posts": [],
+  "company": [
     {
-      "id": "2cff",
-      "ProductType": "werty",
-      "ProductTitle": "zxcvbn",
-      "SelectCompany": "futu",
-      "ExpiryDate": "2024-01-30",
-      "ProductCode": "234",
-      "TotalStock": "pokjpok",
-      "CostItem": "gcljhihhe",
-      "manufacturedate": "2024-01-02",
-      "discription": "urxtrdtfyyuh"
-    },
-    {
-      "id": "8f69",
-      "ProductType": "ravuiiiiii",
-      "ProductTitle": "s",
-      "SelectCompany": "s",
-      "ExpiryDate": "2024-01-29",
-      "ProductCode": "ss",
-      "TotalStock": "s",
-      "CostItem": 8787878787,
-      "manufacturedate": "2024-01-29",
-      "discription": "ss"
+      "id": "f3b2",
+      "ProductType": "BRU",
+      "Discription": "It's a tea powder"
     }
   ],
-  "company": [],
+  "category": [
+    {
+      "id": "65d7",
+      "ProductTitle": "Manikandan",
+      "Discription": "Manikandan"
+    }
+  ],
   "login": [
     {
       "id": "fb67",
@@ -926,6 +914,1304 @@
       "products": [],
       "order_id": "or1706537581654",
       "total_amount": 2752
+    },
+    {
+      "id": "bfc6",
+      "cName": "ravuiiiiii",
+      "cMobile": "8787878787",
+      "date": "31-1-2024 ",
+      "products": [
+        {
+          "product_id": "pr3",
+          "product_name": "toooo",
+          "price": 333,
+          "id": "2032",
+          "qty": 8787878787
+        }
+      ],
+      "order_id": "or1706673813796",
+      "total_amount": 0
+    },
+    {
+      "id": "9ed9",
+      "cName": "mani",
+      "cMobile": "7878787878",
+      "date": "31-1-2024 ",
+      "products": [],
+      "order_id": "or1706673913386"
+    },
+    {
+      "id": "75ac",
+      "cName": "mani",
+      "cMobile": "8787878787",
+      "date": "31-1-2024 ",
+      "products": [
+        {
+          "id": "bff9",
+          "ProductType": "ravuiiiiii",
+          "product_name": "ravuiiiiii",
+          "SelectCompany": "ravuiiiiii",
+          "ExpiryDate": "2024-01-31",
+          "ProductCode": "8787878787",
+          "stock": "7878787878",
+          "price": 8787878787,
+          "manufacturedate": "2024-01-31",
+          "discription": "uthayam",
+          "product_id": "br1706673902943",
+          "qty": 2
+        },
+        {
+          "id": "eab0",
+          "ProductType": "1",
+          "product_name": "eeee",
+          "SelectCompany": "12",
+          "ExpiryDate": "2024-01-29",
+          "ProductCode": "1",
+          "stock": "2333",
+          "price": 23,
+          "manufacturedate": "2024-01-29",
+          "discription": "uthayam",
+          "product_id": "br1706536428763",
+          "qty": 1
+        },
+        {
+          "product_id": "pr3",
+          "product_name": "toooo",
+          "price": 333,
+          "id": "2032",
+          "qty": 2
+        },
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "id": "f960",
+          "qty": 3
+        }
+      ],
+      "order_id": "or1706675522470",
+      "total_amount": 17575758263
+    },
+    {
+      "id": "c37a",
+      "cName": "mani",
+      "cMobile": "8787878787",
+      "date": "31-1-2024 ",
+      "products": [
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 8787878787
+        },
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 8787878787
+        },
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 8787878787
+        }
+      ],
+      "order_id": "or1706675774907",
+      "total_amount": 5958181817586
+    },
+    {
+      "id": "e18b",
+      "cName": "mani",
+      "cMobile": "2",
+      "date": "31-1-2024 ",
+      "products": [],
+      "order_id": "or1706676975619"
+    },
+    {
+      "id": "5ba0",
+      "cName": "ravuiiiiii",
+      "cMobile": "8787878787",
+      "date": "31-1-2024 ",
+      "products": [
+        {
+          "id": "cfbd",
+          "ProductType": "ravuiiiiii",
+          "product_name": "anand",
+          "SelectCompany": "wd",
+          "ExpiryDate": "2024-01-31",
+          "ProductCode": "7878787878",
+          "stock": "23",
+          "price": 23,
+          "manufacturedate": "2024-01-31",
+          "discription": "ravi",
+          "product_id": "br1706677036284",
+          "qty": 2
+        },
+        {
+          "id": "cfbd",
+          "ProductType": "ravuiiiiii",
+          "product_name": "anand",
+          "SelectCompany": "wd",
+          "ExpiryDate": "2024-01-31",
+          "ProductCode": "7878787878",
+          "stock": "23",
+          "price": 23,
+          "manufacturedate": "2024-01-31",
+          "discription": "ravi",
+          "product_id": "br1706677036284",
+          "qty": 2
+        },
+        {
+          "id": "cfbd",
+          "ProductType": "ravuiiiiii",
+          "product_name": "anand",
+          "SelectCompany": "wd",
+          "ExpiryDate": "2024-01-31",
+          "ProductCode": "7878787878",
+          "stock": "23",
+          "price": 23,
+          "manufacturedate": "2024-01-31",
+          "discription": "ravi",
+          "product_id": "br1706677036284",
+          "qty": 2
+        },
+        {
+          "id": "cfbd",
+          "ProductType": "ravuiiiiii",
+          "product_name": "anand",
+          "SelectCompany": "wd",
+          "ExpiryDate": "2024-01-31",
+          "ProductCode": "7878787878",
+          "stock": "23",
+          "price": 23,
+          "manufacturedate": "2024-01-31",
+          "discription": "ravi",
+          "product_id": "br1706677036284",
+          "qty": 2
+        },
+        {
+          "id": "cfbd",
+          "ProductType": "ravuiiiiii",
+          "product_name": "anand",
+          "SelectCompany": "wd",
+          "ExpiryDate": "2024-01-31",
+          "ProductCode": "7878787878",
+          "stock": "23",
+          "price": 23,
+          "manufacturedate": "2024-01-31",
+          "discription": "ravi",
+          "product_id": "br1706677036284",
+          "qty": 2
+        }
+      ],
+      "order_id": "or1706677047789",
+      "total_amount": 184
+    },
+    {
+      "id": "13d4",
+      "cName": "ravuiiiiii",
+      "cMobile": "7878787878",
+      "date": "31-1-2024 ",
+      "products": [
+        {
+          "product_id": "pr3",
+          "product_name": "toooo",
+          "price": 333,
+          "id": "2032",
+          "qty": 8787878787
+        }
+      ],
+      "order_id": "or1706677187309",
+      "total_amount": 0
+    },
+    {
+      "id": "81a8",
+      "cName": "cgct",
+      "cMobile": "xd",
+      "date": "31-1-2024 ",
+      "products": [
+        {
+          "id": "cfbd",
+          "ProductType": "ravuiiiiii",
+          "product_name": "anand",
+          "SelectCompany": "wd",
+          "ExpiryDate": "2024-01-31",
+          "ProductCode": "7878787878",
+          "stock": "23",
+          "price": 23,
+          "manufacturedate": "2024-01-31",
+          "discription": "ravi",
+          "product_id": "br1706677036284",
+          "qty": 2
+        },
+        {
+          "id": "cfbd",
+          "ProductType": "ravuiiiiii",
+          "product_name": "anand",
+          "SelectCompany": "wd",
+          "ExpiryDate": "2024-01-31",
+          "ProductCode": "7878787878",
+          "stock": "23",
+          "price": 23,
+          "manufacturedate": "2024-01-31",
+          "discription": "ravi",
+          "product_id": "br1706677036284",
+          "qty": 2
+        },
+        {
+          "id": "cfbd",
+          "ProductType": "ravuiiiiii",
+          "product_name": "anand",
+          "SelectCompany": "wd",
+          "ExpiryDate": "2024-01-31",
+          "ProductCode": "7878787878",
+          "stock": "23",
+          "price": 23,
+          "manufacturedate": "2024-01-31",
+          "discription": "ravi",
+          "product_id": "br1706677036284",
+          "qty": 2
+        },
+        {
+          "id": "cfbd",
+          "ProductType": "ravuiiiiii",
+          "product_name": "anand",
+          "SelectCompany": "wd",
+          "ExpiryDate": "2024-01-31",
+          "ProductCode": "7878787878",
+          "stock": "23",
+          "price": 23,
+          "manufacturedate": "2024-01-31",
+          "discription": "ravi",
+          "product_id": "br1706677036284",
+          "qty": 2
+        },
+        {
+          "id": "cfbd",
+          "ProductType": "ravuiiiiii",
+          "product_name": "anand",
+          "SelectCompany": "wd",
+          "ExpiryDate": "2024-01-31",
+          "ProductCode": "7878787878",
+          "stock": "23",
+          "price": 23,
+          "manufacturedate": "2024-01-31",
+          "discription": "ravi",
+          "product_id": "br1706677036284",
+          "qty": 2
+        }
+      ],
+      "order_id": "or1706678747154",
+      "total_amount": 184
+    },
+    {
+      "id": "276c",
+      "cName": "ravuiiiiii",
+      "cMobile": "7878787878",
+      "date": "31-1-2024 ",
+      "products": [
+        {
+          "product_id": "pr3",
+          "product_name": "toooo",
+          "price": 333,
+          "id": "2032",
+          "qty": 2
+        },
+        {
+          "product_id": "pr3",
+          "product_name": "toooo",
+          "price": 333,
+          "id": "2032",
+          "qty": 2
+        },
+        {
+          "product_id": "pr3",
+          "product_name": "toooo",
+          "price": 333,
+          "id": "2032",
+          "qty": 2
+        }
+      ],
+      "order_id": "or1706678924957",
+      "total_amount": 1332
+    },
+    {
+      "id": "1de8",
+      "cName": "ravuiiiiii",
+      "cMobile": "2",
+      "date": "31-1-2024 ",
+      "products": [
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 2
+        },
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 2
+        }
+      ],
+      "order_id": "or1706679210730",
+      "total_amount": 678
+    },
+    {
+      "id": "f0e3",
+      "cName": "nhbbvnb",
+      "cMobile": "8787878787",
+      "date": "31-1-2024 ",
+      "products": [
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 8787878787
+        },
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 8787878787
+        },
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 8787878787
+        }
+      ],
+      "order_id": "or1706679326062",
+      "total_amount": 5958181817586
+    },
+    {
+      "id": "cd0a",
+      "cName": "mani",
+      "cMobile": "7878787878",
+      "date": "31-1-2024 ",
+      "products": [
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 2
+        },
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 2
+        }
+      ],
+      "order_id": "or1706679357880",
+      "total_amount": 678
+    },
+    {
+      "id": "edeb",
+      "cName": "ravuiiiiii",
+      "cMobile": "8787878787",
+      "date": "31-1-2024 ",
+      "products": [
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 2
+        },
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 2
+        }
+      ],
+      "order_id": "or1706679442067",
+      "total_amount": 678
+    },
+    {
+      "id": "ec52",
+      "cName": "ravuiiiiii",
+      "cMobile": "7878787878",
+      "date": "31-1-2024 ",
+      "products": [
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 2
+        },
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 2
+        }
+      ],
+      "order_id": "or1706679527636",
+      "total_amount": 678
+    },
+    {
+      "id": "2538",
+      "cName": "ravuiiiiii",
+      "cMobile": "8787878787",
+      "date": "31-1-2024 ",
+      "products": [
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "id": "f960",
+          "qty": 7878787878
+        },
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "id": "f960",
+          "qty": 7878787878
+        }
+      ],
+      "order_id": "or1706679691484",
+      "total_amount": 2710303030032
+    },
+    {
+      "id": "61c8",
+      "cName": "ravuiiiiii",
+      "cMobile": "8787878787",
+      "date": "31-1-2024 ",
+      "products": [],
+      "order_id": "or1706684762315"
+    },
+    {
+      "id": "8989",
+      "cName": "ravuiiiiii",
+      "cMobile": "7878787878",
+      "date": "31-1-2024 ",
+      "products": [
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 2
+        }
+      ],
+      "order_id": "or1706686325133",
+      "total_amount": 0
+    },
+    {
+      "id": "f7b4",
+      "cName": "ravuiiiiii",
+      "cMobile": "2",
+      "date": "31-1-2024 ",
+      "products": [
+        {
+          "id": "eab0",
+          "ProductType": "1",
+          "product_name": "eeee",
+          "SelectCompany": "12",
+          "ExpiryDate": "2024-01-29",
+          "ProductCode": "1",
+          "stock": "2333",
+          "price": 23,
+          "manufacturedate": "2024-01-29",
+          "discription": "uthayam",
+          "product_id": "br1706536428763",
+          "qty": 7878787878
+        }
+      ],
+      "order_id": "or1706686382879",
+      "total_amount": 0
+    },
+    {
+      "id": "a811",
+      "cName": "ravuiiiiii",
+      "cMobile": "2",
+      "date": "31-1-2024 ",
+      "products": [
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 2
+        }
+      ],
+      "order_id": "or1706686420958",
+      "total_amount": 0
+    },
+    {
+      "id": "b6ea",
+      "cName": "mani",
+      "cMobile": "2",
+      "date": "31-1-2024 ",
+      "products": [
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 2
+        },
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 2
+        },
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 2
+        },
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 2
+        },
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 2
+        }
+      ],
+      "order_id": "or1706686594023",
+      "total_amount": 2712
+    },
+    {
+      "id": "d446",
+      "cName": "mani",
+      "cMobile": "2",
+      "date": "31-1-2024 ",
+      "products": [
+        {
+          "product_id": "pr3",
+          "product_name": "toooo",
+          "price": 333,
+          "id": "2032",
+          "qty": 2
+        },
+        {
+          "product_id": "pr3",
+          "product_name": "toooo",
+          "price": 333,
+          "id": "2032",
+          "qty": 2
+        },
+        {
+          "product_id": "pr3",
+          "product_name": "toooo",
+          "price": 333,
+          "id": "2032",
+          "qty": 2
+        },
+        {
+          "product_id": "pr3",
+          "product_name": "toooo",
+          "price": 333,
+          "id": "2032",
+          "qty": 2
+        },
+        {
+          "product_id": "pr3",
+          "product_name": "toooo",
+          "price": 333,
+          "id": "2032",
+          "qty": 2
+        },
+        {
+          "product_id": "pr3",
+          "product_name": "toooo",
+          "price": 333,
+          "id": "2032",
+          "qty": 2
+        }
+      ],
+      "order_id": "or1706686671573",
+      "total_amount": 3330
+    },
+    {
+      "id": "c789",
+      "cName": "nhbbvnb",
+      "cMobile": "2",
+      "date": "31-1-2024 ",
+      "products": [
+        {
+          "id": "eab0",
+          "ProductType": "1",
+          "product_name": "eeee",
+          "SelectCompany": "12",
+          "ExpiryDate": "2024-01-29",
+          "ProductCode": "1",
+          "stock": "2333",
+          "price": 23,
+          "manufacturedate": "2024-01-29",
+          "discription": "uthayam",
+          "product_id": "br1706536428763",
+          "qty": 2
+        },
+        {
+          "id": "eab0",
+          "ProductType": "1",
+          "product_name": "eeee",
+          "SelectCompany": "12",
+          "ExpiryDate": "2024-01-29",
+          "ProductCode": "1",
+          "stock": "2333",
+          "price": 23,
+          "manufacturedate": "2024-01-29",
+          "discription": "uthayam",
+          "product_id": "br1706536428763",
+          "qty": 2
+        }
+      ],
+      "order_id": "or1706686889325",
+      "total_amount": 46
+    },
+    {
+      "id": "b32d",
+      "cName": "ravuiiiiii",
+      "cMobile": "8787878787",
+      "date": "31-1-2024 ",
+      "products": [
+        {
+          "id": "eab0",
+          "ProductType": "1",
+          "product_name": "eeee",
+          "SelectCompany": "12",
+          "ExpiryDate": "2024-01-29",
+          "ProductCode": "1",
+          "stock": "2333",
+          "price": 23,
+          "manufacturedate": "2024-01-29",
+          "discription": "uthayam",
+          "product_id": "br1706536428763",
+          "qty": 8787878787
+        },
+        {
+          "id": "eab0",
+          "ProductType": "1",
+          "product_name": "eeee",
+          "SelectCompany": "12",
+          "ExpiryDate": "2024-01-29",
+          "ProductCode": "1",
+          "stock": "2333",
+          "price": 23,
+          "manufacturedate": "2024-01-29",
+          "discription": "uthayam",
+          "product_id": "br1706536428763",
+          "qty": 8787878787
+        },
+        {
+          "id": "eab0",
+          "ProductType": "1",
+          "product_name": "eeee",
+          "SelectCompany": "12",
+          "ExpiryDate": "2024-01-29",
+          "ProductCode": "1",
+          "stock": "2333",
+          "price": 23,
+          "manufacturedate": "2024-01-29",
+          "discription": "uthayam",
+          "product_id": "br1706536428763",
+          "qty": 8787878787
+        }
+      ],
+      "order_id": "or1706687046746",
+      "total_amount": 404242424202
+    },
+    {
+      "id": "aa98",
+      "cName": "ravuiiiiii",
+      "cMobile": "2",
+      "date": "31-1-2024 ",
+      "products": [
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "id": "f960",
+          "qty": 2
+        },
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "id": "f960",
+          "qty": 2
+        }
+      ],
+      "order_id": "or1706687077097",
+      "total_amount": 688
+    },
+    {
+      "id": "8d7b",
+      "cName": "nhbbvnb",
+      "cMobile": "2",
+      "date": "31-1-2024 ",
+      "products": [
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 2
+        }
+      ],
+      "order_id": "or1706687277274",
+      "total_amount": 0
+    },
+    {
+      "id": "8325",
+      "cName": "ravuiiiiii",
+      "cMobile": "7878787878",
+      "date": "31-1-2024 ",
+      "products": [
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 2
+        },
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 2
+        }
+      ],
+      "order_id": "or1706687354397",
+      "total_amount": 678
+    },
+    {
+      "id": "87f6",
+      "cName": "ravuiiiiii",
+      "cMobile": "8787878787",
+      "date": "31-1-2024 ",
+      "products": [
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "id": "f960",
+          "qty": 8787878787
+        }
+      ],
+      "order_id": "or1706687422897",
+      "total_amount": 0
+    },
+    {
+      "id": "22e8",
+      "cName": "ravuiiiiii",
+      "cMobile": "7878787878",
+      "date": "2-2-2024 ",
+      "products": [
+        {
+          "product_id": "pr3",
+          "product_name": "toooo",
+          "price": 333,
+          "id": "2032",
+          "qty": 2
+        }
+      ],
+      "order_id": "or1706853790474",
+      "total_amount": 0
+    },
+    {
+      "id": "1d8a",
+      "cName": "ravuiiiiii",
+      "cMobile": "8787878787",
+      "date": "5-2-2024 ",
+      "products": [],
+      "order_id": "or1707122626508"
+    },
+    {
+      "id": "b968",
+      "cName": "mani",
+      "cMobile": "2",
+      "date": "5-2-2024 ",
+      "products": [],
+      "order_id": "or1707122655738"
+    },
+    {
+      "id": "28d1",
+      "cName": "ravi",
+      "cMobile": "9566363718",
+      "date": "5-2-2024 ",
+      "products": [],
+      "order_id": "or1707122685510"
+    },
+    {
+      "id": "3c62",
+      "cName": "mani",
+      "cMobile": "7878787878",
+      "date": "5-2-2024 ",
+      "products": [
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 60
+        },
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 60
+        }
+      ],
+      "order_id": "or1707123119516",
+      "total_amount": 20340
+    },
+    {
+      "id": "d3c9",
+      "cName": "mani",
+      "cMobile": "9566363718",
+      "date": "5-2-2024 ",
+      "products": [
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "id": "f960",
+          "qty": 56
+        }
+      ],
+      "order_id": "or1707123360797",
+      "total_amount": 0
+    },
+    {
+      "id": "b030",
+      "cName": "ravuiiiiii",
+      "cMobile": "7878787878",
+      "date": "6-2-2024 ",
+      "products": [
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 8787878787
+        }
+      ],
+      "order_id": "or1707209546645",
+      "total_amount": 0
+    },
+    {
+      "id": "48b7",
+      "cName": "ravuiiiiii",
+      "cMobile": "8787878787",
+      "date": "6-2-2024 ",
+      "products": [
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 8787878787
+        }
+      ],
+      "order_id": "or1707209953831",
+      "total_amount": 0
+    },
+    {
+      "id": "416e",
+      "cName": "mani",
+      "cMobile": "7878787878",
+      "date": "6-2-2024 ",
+      "products": [
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "id": "f960",
+          "qty": 50
+        },
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 30
+        }
+      ],
+      "order_id": "or1707212204833",
+      "total_amount": 17200
+    },
+    {
+      "id": "3d05",
+      "cName": "mani",
+      "cMobile": "8787878787",
+      "date": "6-2-2024 ",
+      "products": [
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "id": "f960",
+          "qty": 30
+        },
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "id": "f960",
+          "qty": 30
+        },
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 22
+        }
+      ],
+      "order_id": "or1707212282937",
+      "total_amount": 20640
+    },
+    {
+      "id": "0ce3",
+      "cName": "ravuiiiiii",
+      "cMobile": "8787878787",
+      "date": "6-2-2024 ",
+      "products": [
+        {
+          "product_id": "pr3",
+          "product_name": "toooo",
+          "price": 333,
+          "id": "2032",
+          "qty": 8787878787
+        },
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 44
+        }
+      ],
+      "order_id": "or1707212466251",
+      "total_amount": 2926363636071
+    },
+    {
+      "id": "1714",
+      "cName": "mani",
+      "cMobile": "8787878787",
+      "date": "6-2-2024 ",
+      "products": [],
+      "order_id": "or1707214102778"
+    },
+    {
+      "id": "703b",
+      "cName": "mani",
+      "cMobile": "jej",
+      "date": "7-2-2024 ",
+      "products": [
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 2
+        }
+      ],
+      "order_id": "or1707275730372",
+      "total_amount": 0
+    },
+    {
+      "id": "b7b7",
+      "cName": "mani",
+      "cMobile": "jej",
+      "date": "7-2-2024 ",
+      "products": [
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "id": "f960",
+          "qty": 2
+        },
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 2
+        }
+      ],
+      "order_id": "or1707281366097",
+      "total_amount": 688
+    },
+    {
+      "id": "fb83",
+      "cName": "mani",
+      "cMobile": "jej",
+      "date": "7-2-2024 ",
+      "products": [
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "id": "f960",
+          "qty": 2
+        },
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 2
+        }
+      ],
+      "order_id": "or1707282559571",
+      "total_amount": 688
+    },
+    {
+      "id": "eb27",
+      "cName": "mani",
+      "cMobile": "jej",
+      "date": "7-2-2024 ",
+      "products": [
+        {
+          "product_id": "pr2",
+          "product_name": "egg",
+          "price": 339,
+          "id": "201f",
+          "qty": 3
+        }
+      ],
+      "order_id": "or1707284836044",
+      "total_amount": 0
+    },
+    {
+      "id": "a966",
+      "cName": "mani",
+      "cMobile": "jej",
+      "date": "7-2-2024 ",
+      "products": [
+        {
+          "id": "eab0",
+          "ProductType": "1",
+          "product_name": "eeee",
+          "SelectCompany": "12",
+          "ExpiryDate": "2024-01-29",
+          "ProductCode": "1",
+          "stock": "2333",
+          "price": 23,
+          "manufacturedate": "2024-01-29",
+          "discription": "uthayam",
+          "product_id": "br1706536428763",
+          "qty": 2
+        }
+      ],
+      "order_id": "or1707285122630",
+      "total_amount": 0
+    },
+    {
+      "id": "465d",
+      "cName": "mani",
+      "cMobile": "500",
+      "date": "7-2-2024 ",
+      "products": [
+        {
+          "id": "bff9",
+          "ProductType": "ravuiiiiii",
+          "product_name": "ravuiiiiii",
+          "SelectCompany": "ravuiiiiii",
+          "ExpiryDate": "2024-01-31",
+          "ProductCode": "8787878787",
+          "stock": "7878787878",
+          "price": 8787878787,
+          "manufacturedate": "2024-01-31",
+          "discription": "uthayam",
+          "product_id": "br1706673902943",
+          "qty": 3
+        }
+      ],
+      "order_id": "or1707288785936",
+      "total_amount": 0
+    },
+    {
+      "id": "5972",
+      "cName": "mani",
+      "cMobile": "jej",
+      "date": "7-2-2024 ",
+      "products": [
+        {
+          "product_id": "pr3",
+          "product_name": "toooo",
+          "price": 333,
+          "id": "2032",
+          "qty": -2
+        }
+      ],
+      "order_id": "or1707292052216",
+      "total_amount": 0
+    },
+    {
+      "id": "3310",
+      "cName": "Coffee",
+      "cMobile": "500",
+      "date": "7-2-2024 ",
+      "products": [],
+      "order_id": "or1707295013970"
+    },
+    {
+      "id": "2a3a",
+      "cName": "Coffee",
+      "cMobile": "500",
+      "date": "7-2-2024 ",
+      "products": [
+        {
+          "product_id": "pr3",
+          "product_name": "toooo",
+          "price": 333,
+          "id": "2032",
+          "qty": 500
+        }
+      ],
+      "order_id": "or1707295052097",
+      "total_amount": 0
+    },
+    {
+      "id": "76df",
+      "cName": "Coffee",
+      "cMobile": "500",
+      "date": "7-2-2024 ",
+      "products": [
+        {
+          "id": "bff9",
+          "ProductType": "ravuiiiiii",
+          "product_name": "ravuiiiiii",
+          "SelectCompany": "ravuiiiiii",
+          "ExpiryDate": "2024-01-31",
+          "ProductCode": "8787878787",
+          "stock": "7878787878",
+          "price": 8787878787,
+          "manufacturedate": "2024-01-31",
+          "discription": "uthayam",
+          "product_id": "br1706673902943",
+          "qty": 500
+        }
+      ],
+      "order_id": "or1707295089871",
+      "total_amount": 0
+    },
+    {
+      "id": "2ada",
+      "cName": "Coffee",
+      "cMobile": "500",
+      "date": "7-2-2024 ",
+      "products": [
+        {
+          "id": "bff9",
+          "ProductType": "ravuiiiiii",
+          "product_name": "ravuiiiiii",
+          "SelectCompany": "ravuiiiiii",
+          "ExpiryDate": "2024-01-31",
+          "ProductCode": "8787878787",
+          "stock": "7878787878",
+          "price": 8787878787,
+          "manufacturedate": "2024-01-31",
+          "discription": "uthayam",
+          "product_id": "br1706673902943",
+          "qty": 1
+        }
+      ],
+      "order_id": "or1707295177851",
+      "total_amount": 0
+    },
+    {
+      "id": "995f",
+      "cName": "mani",
+      "cMobile": "500",
+      "date": "8-2-2024 ",
+      "products": [
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "id": "f960",
+          "qty": 500
+        }
+      ],
+      "order_id": "or1707385887971",
+      "total_amount": 0
+    },
+    {
+      "id": "4dea",
+      "cName": "mani",
+      "cMobile": "8922774531",
+      "date": "9-2-2024 ",
+      "products": [
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "id": "f960",
+          "qty": 100
+        },
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "id": "f960",
+          "qty": 100
+        }
+      ],
+      "order_id": "or1707469097817",
+      "total_amount": 7568
+    },
+    {
+      "id": "eaf6",
+      "cName": "Manikandan",
+      "cMobile": "9566363718",
+      "date": "12-2-2024 ",
+      "products": [
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "id": "f960",
+          "qty": 4
+        },
+        {
+          "product_id": "pr3",
+          "product_name": "toooo",
+          "price": 333,
+          "id": "2032",
+          "qty": 5
+        }
+      ],
+      "order_id": "or1707744664042",
+      "total_amount": 1376
     }
   ],
   "products": [
@@ -936,29 +2222,36 @@
       "id": "f960"
     },
     {
-      "product_id": "pr2",
-      "product_name": "egg",
-      "price": 339,
-      "id": "201f"
-    },
-    {
       "product_id": "pr3",
       "product_name": "toooo",
       "price": 333,
       "id": "2032"
     },
     {
-      "id": "eab0",
-      "ProductType": "1",
-      "product_name": "eeee",
-      "SelectCompany": "12",
-      "ExpiryDate": "2024-01-29",
-      "ProductCode": "1",
-      "stock": "2333",
-      "price": 23,
-      "manufacturedate": "2024-01-29",
+      "id": "bff9",
+      "ProductType": "ravuiiiiii",
+      "product_name": "ravuiiiiii",
+      "SelectCompany": "ravuiiiiii",
+      "ExpiryDate": "2024-01-31",
+      "ProductCode": "8787878787",
+      "stock": "7878787878",
+      "price": 8787878787,
+      "manufacturedate": "2024-01-31",
       "discription": "uthayam",
-      "product_id": "br1706536428763"
+      "product_id": "br1706673902943"
+    },
+    {
+      "id": "cfbd",
+      "ProductType": "ravuiiiiii",
+      "product_name": "anand",
+      "SelectCompany": "wd",
+      "ExpiryDate": "2024-01-31",
+      "ProductCode": "7878787878",
+      "stock": "23",
+      "price": 23,
+      "manufacturedate": "2024-01-31",
+      "discription": "ravi",
+      "product_id": "br1706677036284"
     }
   ]
 }

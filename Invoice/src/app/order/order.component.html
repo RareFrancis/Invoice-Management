@@ -1,0 +1,37 @@
+<h4>Order Report</h4>
+<div>
+
+  
+    <!-- <h3 class="text-danger">Order Details</h3> -->
+    <table class="table table-bordered">
+      <tr>
+        <th scope="col"> Id</th>
+        <th scope="col">Date</th>
+        <th scope="col"> Name</th>
+        <th scope="col"> Mobile</th>
+        <th scope="col">Product Name</th>
+        <th scope="col">Price per unit</th>
+        <th scope="col">Total units</th>
+        <th scope="col">Total cost</th>
+        <th scope="col">total</th>
+
+      </tr>
+      <tbody *ngFor="let pro of report">
+      <tr *ngFor="let pros of pro.products">
+        <td>{{pro.order_id}}</td>
+        <td>{{pro.date}}</td>
+        <td>{{pro.cName}}</td>
+        <td>{{pro.cMobile}}</td>
+        <td>{{pros.product_name}}</td>
+        <td>{{pros.price}}</td>
+        <td>{{pros.qty}}</td>
+        <td>{{pros.qty * pros.price}}</td>
+        <th>{{pro.Total}}</th>
+      </tr>
+    </tbody>
+    </table>
+    <!-- <button type="button" (click)="save()" class="d-block float-right btn btn-outline-success">Save Sell
+      Details</button> -->
+
+
+</div>

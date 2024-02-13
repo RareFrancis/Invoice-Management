@@ -85,6 +85,8 @@ addProduct(){
     this.orderQty = res;
     console.log(this.orderQty);
     
+
+    this.productAdd.reset();
     // const team = this.orderQty.len
   })
   console.log(this.productAdd.value);
@@ -147,6 +149,14 @@ addProduct(){
 };
 save(){
   this.isViewDetails = true;
+}
+
+deleteData(id:any){
+  console.log(id);
+  
+  this.http.delete("http://localhost:3000/products/"+id).subscribe((res)=>{
+
+  })
 }
 
 

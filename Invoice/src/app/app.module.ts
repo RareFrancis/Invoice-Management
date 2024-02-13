@@ -13,6 +13,11 @@ import { LoginformComponent } from './login/login.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { SaleComponent } from './sale/sale.component';
 import { OrderReportComponent } from './order-report/order-report.component';
+import { ProductReportComponent } from './product-report/product-report.component';
+import { CompanyReportComponent } from './company-report/company-report.component';
+import { CategoryReportComponent } from './category-report/category-report.component';
+import { ProductEditComponent } from './product-edit/product-edit.component';
+import { OrderComponent } from './order/order.component';
 
 
 
@@ -29,6 +34,11 @@ import { OrderReportComponent } from './order-report/order-report.component';
     DashboardComponent,
     SaleComponent,
     OrderReportComponent,
+    ProductReportComponent,
+    CompanyReportComponent,
+    CategoryReportComponent,
+    ProductEditComponent,
+    OrderComponent,
  
 
 

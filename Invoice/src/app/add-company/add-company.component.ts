@@ -17,7 +17,7 @@ export class AddCompanyComponent implements OnInit{
   ngOnInit() {
     this.companyForm = this.fb.group({
       ProductType: ['', Validators.required],
-      discription: ['', Validators.required],
+      Discription: ['', Validators.required],
     });
   }
 

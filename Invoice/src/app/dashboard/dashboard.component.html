@@ -1,20 +1,25 @@
+<div class="background">
+
 <div class="dashboard">
     <aside class="sidebar">
       <div class="profile-section">
        
-        <h3>Invoice</h3>
+        <img src="./assets/IP.png" alt="logo" width="40" height="40">
+        <h3>IPMega</h3>
+       
       </div>
+      <h4>Department Store</h4>
       <nav class="nav-menu">
         <ul>
           <li><a [routerLink]="['sale']">Start sell</a></li>
-          <li><a [routerLink]="['order-report']">Order report</a></li>
+          <li><a [routerLink]="['order']">Order report</a></li>
           <li><a [routerLink]="['add-product']">Add Product</a></li>
           
-          <li><a>Product Report</a></li>
+          <li><a [routerLink]="['product-report']">Product Report</a></li>
           <li><a [routerLink]="['add-company']">Add Company</a></li>
-          <li><a>Company Report</a></li>
+          <li><a [routerLink]="['company-report']">Company Report</a></li>
           <li><a [routerLink]="['add-category']">Add Category</a></li>
-          <li><a>Category Report</a></li>
+          <li><a [routerLink]="['category-report']">Category Report</a></li>
           <li><a>Logout</a></li>
        
        
@@ -23,19 +28,19 @@
         </ul>
       </nav>
     </aside>
-    <div class="main-content">
-      <header class="topbar">
+    <div class="main-content ms-3 me-3 mb-1">
+      <header class="topbar rounded-pill" style="background-color: #003F7D;">
         <div class="topbar-left">
           <div class="logo">
-            <strong>Sells Dashboard</strong>
+            <strong class="h4" style="color: white;">Sells Dashboard</strong>
           </div>
         </div>
         <div class="topbar-right">
-          <button class='btn btn-sm'>Logout</button>
-        
+          <button class='btn btn-sm fs-5  hover-btn' style="font-weight: 700; color: white;" routerLink="/loginform">Login</button>
+          <button class='btn btn-sm fs-5 hover-btn' style="font-weight: 700; color: white;" routerLink="/signup">Signup</button> 
         </div>
       </header>
-      <div class="content">
+      <div class="content mt-3 " style="overflow: auto;">
       <div class='card'>
         <div class='card-body'>
 
@@ -49,3 +54,4 @@
       </div>
     </div>
   </div>
+</div>
