@@ -3,8 +3,18 @@
   "company": [
     {
       "id": "f3b2",
-      "ProductType": "BRU",
+      "selectCompany": "BRU",
       "Discription": "It's a tea powder"
+    },
+    {
+      "id": "2a3c",
+      "selectCompany": "AMC",
+      "Discription": "it good"
+    },
+    {
+      "id": "87fb",
+      "selectCompany": "CRI",
+      "Discription": "pumps"
     }
   ],
   "category": [
@@ -12,6 +22,11 @@
       "id": "65d7",
       "ProductTitle": "Manikandan",
       "Discription": "Manikandan"
+    },
+    {
+      "id": "6bd7",
+      "ProductTitle": "Ravi",
+      "Discription": "its good"
     }
   ],
   "login": [
@@ -2212,6 +2227,378 @@
       ],
       "order_id": "or1707744664042",
       "total_amount": 1376
+    },
+    {
+      "id": "dcc6",
+      "cName": "mani",
+      "cMobile": "12345",
+      "date": "13-2-2024 ",
+      "products": [
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "id": "f960",
+          "qty": 500
+        }
+      ],
+      "order_id": "or1707809290073",
+      "total_amount": 0
+    },
+    {
+      "id": "d876",
+      "cName": "mani",
+      "cMobile": "12345",
+      "date": "13-2-2024 ",
+      "products": [
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "id": "f960",
+          "qty": 500
+        }
+      ],
+      "order_id": "or1707811140467",
+      "total_amount": 0
+    },
+    {
+      "id": "67fb",
+      "cName": "mani",
+      "cMobile": "500",
+      "date": "13-2-2024 ",
+      "products": [],
+      "order_id": "or1707811423875"
+    },
+    {
+      "id": "80bd",
+      "cName": "mani",
+      "cMobile": "500",
+      "date": "13-2-2024 ",
+      "products": [],
+      "order_id": "or1707812719205"
+    },
+    {
+      "id": "cb1b",
+      "cName": "mani",
+      "cMobile": "500",
+      "date": "13-2-2024 ",
+      "products": [
+        {
+          "id": "8587",
+          "ProductType": "Coffee",
+          "ProductTitle": "vgvyfyfyy",
+          "SelectCompany": "mani",
+          "ExpiryDate": "2024-02-13",
+          "ProductCode": "cf",
+          "TotalStock": "499",
+          "CostItem": "500",
+          "manufacturedate": "2024-02-13",
+          "discription": "hvfy",
+          "product_id": "br1707812706629",
+          "qty": 2
+        }
+      ],
+      "order_id": "or1707829660780",
+      "total_amount": 0
+    },
+    {
+      "id": "77a6",
+      "cName": "mani",
+      "cMobile": "500",
+      "date": "13-2-2024 ",
+      "products": [
+        {
+          "id": "c0db",
+          "ProductType": "mani",
+          "product_name": "Coffee",
+          "SelectCompany": "mani",
+          "ExpiryDate": "2024-02-13",
+          "ProductCode": "23",
+          "TotalStock": "500",
+          "CostItem": "34",
+          "manufacturedate": "2024-02-13",
+          "discription": "emkk",
+          "product_id": "br1707830044058",
+          "qty": 2
+        }
+      ],
+      "order_id": "or1707830053920",
+      "total_amount": 0
+    },
+    {
+      "id": "bf84",
+      "cName": "mani",
+      "cMobile": "123",
+      "date": "13-2-2024 ",
+      "products": [],
+      "order_id": "or1707832576656"
+    },
+    {
+      "id": "da95",
+      "cName": "Coffee",
+      "cMobile": "123",
+      "date": "13-2-2024 ",
+      "products": [
+        {
+          "id": "2790",
+          "ProductType": "a",
+          "product_name": "Oil",
+          "SelectCompany": "amc",
+          "ExpiryDate": "2024-02-13",
+          "ProductCode": "12",
+          "TotalStock": "500",
+          "price": "25",
+          "manufacturedate": "2024-02-13",
+          "discription": "it is good ",
+          "product_id": "br1707832566056",
+          "qty": 123
+        }
+      ],
+      "order_id": "or1707832750630",
+      "total_amount": 0
+    },
+    {
+      "id": "177d",
+      "cName": "Coffee",
+      "cMobile": "500",
+      "date": "13-2-2024 ",
+      "products": [
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "id": "f960",
+          "qty": 2
+        }
+      ],
+      "order_id": "or1707841871266",
+      "total_amount": 0
+    },
+    {
+      "id": "be42",
+      "cName": "Mani",
+      "cMobile": "123",
+      "date": "13-2-2024 ",
+      "products": [
+        {
+          "id": "cfbd",
+          "ProductType": "ravuiiiiii",
+          "product_name": "anand",
+          "SelectCompany": "wd",
+          "ExpiryDate": "2024-01-31",
+          "ProductCode": "7878787878",
+          "stock": "23",
+          "price": 23,
+          "manufacturedate": "2024-01-31",
+          "discription": "ravi",
+          "product_id": "br1706677036284",
+          "qty": 2
+        }
+      ],
+      "order_id": "or1707844539881",
+      "total_amount": 0
+    },
+    {
+      "id": "e3a2",
+      "cName": "Coffee",
+      "cMobile": "500",
+      "date": "13-2-2024 ",
+      "products": [
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "id": "f960",
+          "qty": 2
+        },
+        {
+          "id": "bff9",
+          "ProductType": "ravuiiiiii",
+          "product_name": "ravuiiiiii",
+          "SelectCompany": "ravuiiiiii",
+          "ExpiryDate": "2024-01-31",
+          "ProductCode": "8787878787",
+          "stock": "7878787878",
+          "price": 8787878787,
+          "manufacturedate": "2024-01-31",
+          "discription": "uthayam",
+          "product_id": "br1706673902943",
+          "qty": 43
+        }
+      ],
+      "order_id": "or1707845371792",
+      "total_amount": 688
+    },
+    {
+      "id": "9eec",
+      "cName": "Mani",
+      "cMobile": "123",
+      "date": "13-2-2024 ",
+      "products": [
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "id": "f960",
+          "qty": 2
+        },
+        {
+          "id": "cfbd",
+          "ProductType": "ravuiiiiii",
+          "product_name": "anand",
+          "SelectCompany": "wd",
+          "ExpiryDate": "2024-01-31",
+          "ProductCode": "7878787878",
+          "stock": "23",
+          "price": 23,
+          "manufacturedate": "2024-01-31",
+          "discription": "ravi",
+          "product_id": "br1706677036284",
+          "qty": 5
+        }
+      ],
+      "order_id": "or1707845758389",
+      "total_amount": 688
+    },
+    {
+      "id": "48e3",
+      "cName": "Coffee",
+      "cMobile": "500",
+      "date": "13-2-2024 ",
+      "products": [
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "id": "f960",
+          "qty": 2
+        },
+        {
+          "product_id": "pr3",
+          "product_name": "toooo",
+          "price": 333,
+          "id": "2032",
+          "qty": 23
+        }
+      ],
+      "order_id": "or1707845871571",
+      "total_amount": 688
+    },
+    {
+      "id": "bd84",
+      "cName": "Coffee",
+      "cMobile": "2",
+      "date": "13-2-2024 ",
+      "products": [
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "id": "f960",
+          "qty": 34
+        }
+      ],
+      "order_id": "or1707846085337",
+      "total_amount": 11696
+    },
+    {
+      "id": "f6ac",
+      "cName": "uthayamkumar",
+      "cMobile": "12345",
+      "date": "13-2-2024 ",
+      "products": [
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "id": "f960",
+          "qty": 2
+        },
+        {
+          "id": "8587",
+          "ProductType": "Coffee",
+          "product_name": "vgvyfyfyy",
+          "SelectCompany": "mani",
+          "ExpiryDate": "2024-02-13",
+          "ProductCode": "cf",
+          "TotalStock": "499",
+          "price": "500",
+          "manufacturedate": "2024-02-13",
+          "discription": "hvfy",
+          "product_id": "br1707812706629",
+          "qty": 21
+        }
+      ],
+      "order_id": "or1707846333801",
+      "total_amount": 11188
+    },
+    {
+      "id": "d556",
+      "cName": "tamil",
+      "cMobile": "500",
+      "date": "13-2-2024 ",
+      "products": [
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "id": "f960",
+          "qty": 4
+        }
+      ],
+      "order_id": "or1707846864736",
+      "total_amount": 1376
+    },
+    {
+      "id": "f260",
+      "cName": "Coffee",
+      "cMobile": "123",
+      "date": "13-2-2024 ",
+      "products": [
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "id": "f960",
+          "qty": 23
+        }
+      ],
+      "order_id": "or1707847800042",
+      "total_amount": 0
+    },
+    {
+      "id": "b79e",
+      "cName": "Coffee",
+      "cMobile": "23",
+      "date": "13-2-2024 ",
+      "products": [
+        {
+          "product_id": "pr3",
+          "product_name": "toooo",
+          "price": 333,
+          "id": "2032",
+          "qty": 500
+        },
+        {
+          "product_id": "pr3",
+          "product_name": "toooo",
+          "price": 333,
+          "id": "2032",
+          "qty": 500
+        }
+      ],
+      "order_id": "or1707847858661",
+      "total_amount": 333000
+    },
+    {
+      "id": "3227",
+      "cName": "Coffee",
+      "cMobile": "500",
+      "date": "13-2-2024 ",
+      "products": [],
+      "order_id": "or1707848160478",
+      "total_amount": 0
     }
   ],
   "products": [
@@ -2252,6 +2639,19 @@
       "manufacturedate": "2024-01-31",
       "discription": "ravi",
       "product_id": "br1706677036284"
+    },
+    {
+      "id": "8587",
+      "ProductType": "Coffee",
+      "product_name": "vgvyfyfyy",
+      "SelectCompany": "mani",
+      "ExpiryDate": "2024-02-13",
+      "ProductCode": "cf",
+      "TotalStock": "499",
+      "price": "500",
+      "manufacturedate": "2024-02-13",
+      "discription": "hvfy",
+      "product_id": "br1707812706629"
     }
   ]
 }

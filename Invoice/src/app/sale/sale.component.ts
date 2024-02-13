@@ -22,6 +22,7 @@ export class SaleComponent {
   allTotalCost: any;
   totalAmount: any;
   orderQty!: Object;
+  maniProduct: any;
   constructor(private fb: FormBuilder,private http:HttpClient){
     this.saleForm = this.fb.group({
       cName: ['', [Validators.required]],
@@ -153,10 +154,50 @@ save(){
 
 deleteData(id:any){
   console.log(id);
-  
-  this.http.delete("http://localhost:3000/products/"+id).subscribe((res)=>{
+
+  console.log(this.allData);
+
+  this.maniProduct = this.allData[0].products
+
+  var data = this.maniProduct.filter((proId:any) => {
+
+    return proId.id != id
 
   })
+  console.log(data);
+  
+  var totalCost = data
+  var allTotalCost = totalCost.map((cos:any) => {
+ return cos.qty * cos.price
+    
+  })
+  console.log(allTotalCost );
+  const customerTotal = allTotalCost.reduce(
+    (accumulator:any, currentValue:any) => accumulator + currentValue,0
+  );
+  var totalAmount = customerTotal;
+  
+  console.log(totalAmount);
+
+  // this.allData[0]["products"] = data;
+  // this.allData[0]["Total"] = totalAmount;
+
+  const updatedData = { products: data ,total_amount : totalAmount};
+  
+
+  this.http.patch("http://localhost:3000/customerDetailes/"+this.orderId, updatedData ).subscribe((res) => {
+    console.log(res);
+  
+    this.allData = [res]
+    console.log(this.allData);
+
+    if(this.allData[0].products){
+      console.log(this.allData[0].products);
+  
+  }
+})
+
+
 }
 
 

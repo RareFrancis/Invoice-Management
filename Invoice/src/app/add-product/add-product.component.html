@@ -66,7 +66,10 @@
 <form class='row' [formGroup]="productForm" >
     <div class='col-md-6 mt-3'> 
        <label for="blogName" class='form-control-label'>Select Product Type</label>
-       <input type="text" id="blogName" class="form-control form-control-md" name="blogName" formControlName="ProductType"> 
+       <select class="form-control" formControlName="SelectCompany">
+        <option *ngFor="let product of addCategory" value={{product.id}}>{{product.ProductTitle}}</option>
+
+      </select>
     </div>
 
     <div class='col-md-6 mt-3'>
@@ -75,7 +78,7 @@
     </div>
     <div class='col-md-6 mt-3'> 
         <label for="blogName" class='form-control-label'>Product Title</label>
-        <input type="text" id="blogName" class="form-control form-control-md" name="blogName" formControlName="ProductTitle"> 
+        <input type="text" id="blogName" class="form-control form-control-md" name="blogName" formControlName="product_name"> 
      </div>
  
      <div class='col-md-6 mt-3'>
@@ -84,12 +87,15 @@
      </div>
      <div class='col-md-6 mt-3'> 
         <label for="blogName" class='form-control-label'>Select Company</label>
-        <input type="text" id="blogName" class="form-control form-control-md" name="blogName" formControlName="SelectCompany"> 
+        <select class="form-control" formControlName="SelectCompany">
+            <option *ngFor="let product of addCompany" value={{product.id}}>{{product.selectCompany}}</option>
+  
+          </select>
      </div>
  
      <div class='col-md-6 mt-3'>
        <label for="blogContent">Cost Per Item</label>
-       <input type="text" id="blogContent" formControlName="CostItem" class="form-control">
+       <input type="text" id="blogContent" formControlName="price" class="form-control">
      </div>
      <div class='col-md-6 mt-3'> 
         <label for="blogName" class='form-control-label'>Expiry Date</label>

@@ -11,23 +11,28 @@ import { ProductService } from '../product.service';
 export class AddProductComponent implements OnInit{
   productForm!:FormGroup;
   material:any;
+  addCompany: any;
+  addCategory: any;
 
-  constructor(private fb:FormBuilder, private http:HttpClient, private product:ProductService){}
-
-
-  ngOnInit() {
+  constructor(private fb:FormBuilder, private http:HttpClient, private product:ProductService){
     this.productForm = this.fb.group({
       ProductType: ['', Validators.required],
-      ProductTitle: ['', Validators.required],
-      SelectCompany: ['', Validators.required],
+      product_name: ['', Validators.required],
+      selectCompany: ['', Validators.required],
       ExpiryDate: ['', Validators.required],
       ProductCode: ['', Validators.required],
       TotalStock: ['', Validators.required],
-      CostItem: ['', Validators.required],
+      price: ['', Validators.required],
       manufacturedate: ['', Validators.required],
       discription: ['', Validators.required],
     });
+    
   }
+
+
+  // ngOnInit() {
+   
+  // }
   
 
   addproduct(data:any){
@@ -35,10 +40,25 @@ export class AddProductComponent implements OnInit{
     var currentDate = new Date();
     this.material["product_id"] = "br"+ currentDate.getTime()
 
-    this.http.post("http://localhost:3000/posts",this.material).subscribe(res=>{
+    this.http.post("http://localhost:3000/products",this.material).subscribe(res=>{
       console.log(this.productForm.value);
       alert("submitted successfully");
       this.productForm.reset();
     })
   }
+  ngOnInit(){
+  this.http.get("http://localhost:3000/company").subscribe(res=>{
+    this.addCompany = res;
+    console.log(this.addCompany);
+
+
+});
+this.http.get("http://localhost:3000/category").subscribe(res=>{
+  this.addCategory = res;
+  console.log(this.addCategory);
+
+
+})
+
+}
 }

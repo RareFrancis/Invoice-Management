@@ -78,6 +78,7 @@
             <th>Price per unit</th>
             <th>Total units</th>
             <th>Total cost</th>
+            <th>Action</th>
 
           </tr>
           <tr *ngFor="let pros of pro.products">
@@ -85,7 +86,7 @@
             <td>{{pros.price}}</td>
             <td>{{pros.qty}}</td>
             <td>{{pros.qty * pros.price}}</td>
-            <td><button type="button" (click)="deleteData(pros.id)">Deleted</button></td>
+            <td><button type="button" (click)="deleteData(pros.id)" class="d-block  btn btn-danger">Deleted</button></td>
 
           </tr>
           <tr>
