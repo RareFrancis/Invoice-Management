@@ -87,7 +87,7 @@
      </div>
      <div class='col-md-6 mt-3'> 
         <label for="blogName" class='form-control-label'>Select Company</label>
-        <select class="form-control" formControlName="SelectCompany">
+        <select class="form-control" formControlName="selectCompany">
             <option *ngFor="let product of addCompany" value={{product.id}}>{{product.selectCompany}}</option>
   
           </select>
@@ -114,6 +114,6 @@
      
  <div class="col-md-6 mt-3">
 
-    <button type="submit"  (click)="addproduct(this.productForm.value)" [disabled]="this.productForm.invalid" class="btn btn-primary">Submit</button>
+    <button type="submit"  (click)="addproduct(this.productForm.value)"  class="btn btn-primary">Submit</button>
 </div>
   </form>

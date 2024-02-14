@@ -11,7 +11,7 @@
     <tbody>
       <tr *ngFor="let items of data">
         <td>{{items.id}}</td>
-        <td>{{items.ProductType}}</td>
+        <td>{{items.selectCompany}}</td>
         <td>{{items.Discription}}</td>
         <td>
             <button type="button" (click)="deleteCompany(items.id)" class="btn btn-danger">Delete</button></td>
