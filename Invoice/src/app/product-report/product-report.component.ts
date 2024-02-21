@@ -24,9 +24,9 @@ data:any
   }
 
 
-  deleteProduct(id: number): void {
+  deleteProduct(id: any): void {
     // Send HTTP DELETE request
-    this.http.delete(`http://localhost:3000/posts/${id}`).subscribe(
+    this.http.delete(`http://localhost:3000/products/${id}`).subscribe(
       () => {
         // Update the data after successful deletion
         this.getData();

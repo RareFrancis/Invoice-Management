@@ -23,6 +23,7 @@ export class SaleComponent {
   totalAmount: any;
   orderQty!: Object;
   maniProduct: any;
+  selectProduct: any;
   constructor(private fb: FormBuilder,private http:HttpClient){
     this.saleForm = this.fb.group({
       cName: ['', [Validators.required]],
@@ -62,7 +63,7 @@ export class SaleComponent {
       this.customerData = [res];
       console.log(this.customerData);
       this.orderId = this.customerData[0].id;
-      this.orderProducts = this.customerData[0].products;
+    
       
     }) 
     
@@ -80,19 +81,14 @@ getProductData(){
 };
 
 
-addProduct(){
+addProduct2(){
 
-  this.http.get("http://localhost:3000/products").subscribe(res=>{
-    this.orderQty = res;
-    console.log(this.orderQty);
-    
 
-    this.productAdd.reset();
-    // const team = this.orderQty.len
-  })
+  
   console.log(this.productAdd.value);
   console.log(this.productList);
-  console.log(this.orderProducts);
+  const orderProducts = this.selectProduct;
+
 
  
   
@@ -100,17 +96,15 @@ addProduct(){
   
   var data = this.productList.filter((proId:any) => {
 
-    return proId.product_id == this.productAdd.value.product_id
+    return proId.id == this.productAdd.value.product_id
   })
  
   var order = data[0];
+  console.log(order);
+  
   order ["qty"] = this.productAdd.value.qty
-  this.orderProducts.push(order)
- 
-  
-  const updatedData = { products: this.orderProducts ,total_amount : this.totalAmount || 0};
-  
-
+  orderProducts.push(order)  
+  const updatedData = { products: orderProducts ,total_amount : this.totalAmount || 0};
   this.http.patch("http://localhost:3000/customerDetailes/"+this.orderId, updatedData ).subscribe((res) => {
     console.log(res);
     this.allData = [res]
@@ -130,24 +124,26 @@ addProduct(){
       );
       this.totalAmount = customerTotal;
       this.allData[0]["Total"] = this.totalAmount
-
-      console.log(this.allData);
-
-
-      
+      console.log(this.allData);      
     }
-
-
-    
+    this.productAdd.reset();    
   })
-
-
-
-
   
-
-
 };
+
+addProduct(){
+  
+  this.http.get("http://localhost:3000/customerDetailes/" + this.orderId).subscribe((res:any) => {
+    console.log(res);
+    this.selectProduct = res.products;
+
+    this.addProduct2();
+  
+    
+  }) 
+
+}
+
 save(){
   this.isViewDetails = true;
 }
@@ -179,8 +175,8 @@ deleteData(id:any){
   
   console.log(totalAmount);
 
-  // this.allData[0]["products"] = data;
-  // this.allData[0]["Total"] = totalAmount;
+  this.allData[0]["products"] = data;
+  this.allData[0]["Total"] = totalAmount;
 
   const updatedData = { products: data ,total_amount : totalAmount};
   

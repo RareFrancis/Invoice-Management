@@ -2,16 +2,41 @@
   "posts": [],
   "company": [
     {
-      "id": "7bd1",
-      "selectCompany": "Arokya milk",
-      "Discription": "Different Product"
+      "id": "f3b2",
+      "selectCompany": "BRU",
+      "Discription": "It's a tea powder"
+    },
+    {
+      "id": "2a3c",
+      "selectCompany": "AMC",
+      "Discription": "it good"
+    },
+    {
+      "id": "87fb",
+      "selectCompany": "CRI",
+      "Discription": "pumps"
+    },
+    {
+      "id": "27d4",
+      "selectCompany": "ip mega",
+      "Discription": "student"
     }
   ],
   "category": [
     {
-      "id": "98df",
-      "ProductTitle": "Beverages",
-      "Discription": "Coffee, teabags, milk, juice, soda, beer, wine, etc."
+      "id": "65d7",
+      "ProductTitle": "Manikandan",
+      "Discription": "Manikandan"
+    },
+    {
+      "id": "6bd7",
+      "ProductTitle": "Ravi",
+      "Discription": "its good"
+    },
+    {
+      "id": "2d5a",
+      "ProductTitle": "rice",
+      "Discription": "it very good"
     }
   ],
   "login": [
@@ -25,77 +50,706 @@
   ],
   "customerDetailes": [
     {
-      "id": "97dd",
-      "cName": "ajay",
-      "cMobile": "7449175449",
-      "date": "14-2-2024 ",
+      "id": "902f",
+      "cName": "ravi",
+      "cMobile": "967898789",
+      "date": "27-1-2024 -",
+      "products": [],
+      "order_id": "or1706367176691"
+    },
+    {
+      "id": "2ea5",
+      "cName": "mani",
+      "cMobile": "999999999999",
+      "date": "27-1-2024 -",
+      "products": [],
+      "order_id": "or1706367499062"
+    },
+    {
+      "id": "08f7",
+      "cName": "nhbbvnb",
+      "cMobile": "888",
+      "date": "27-1-2024 -",
+      "products": [],
+      "order_id": "or1706367572176"
+    },
+    {
+      "id": "d08b",
+      "cName": "ssadas",
+      "cMobile": "43434",
+      "date": "27-1-2024 -",
+      "products": [],
+      "order_id": "or1706367650650"
+    },
+    {
+      "id": "40d8",
+      "cName": "mani",
+      "cMobile": "767657",
+      "date": "27-1-2024 -",
+      "products": [],
+      "order_id": "or1706367719424"
+    },
+    {
+      "id": "b049",
+      "cName": "uthayam",
+      "cMobile": "95783848374",
+      "date": "27-1-2024 -",
+      "products": [],
+      "order_id": "or1706367781494"
+    },
+    {
+      "id": "3cfd",
+      "cName": "siva",
+      "cMobile": "234234",
+      "date": "27-1-2024 -",
+      "products": [],
+      "order_id": "or1706367957528"
+    },
+    {
+      "id": "5e44",
+      "cName": "",
+      "cMobile": "",
+      "date": "28-1-2024 -",
+      "products": [],
+      "order_id": "or1706449727403"
+    },
+    {
+      "id": "b583",
+      "cName": "",
+      "cMobile": "",
+      "date": "28-1-2024 -",
+      "products": [],
+      "order_id": "or1706450710812"
+    },
+    {
+      "id": "e3ce",
+      "cName": "",
+      "cMobile": "",
+      "date": "28-1-2024 -",
+      "products": [],
+      "order_id": "or1706452302835"
+    },
+    {
+      "id": "36b5",
+      "cName": "jhj",
+      "cMobile": "ngjh",
+      "date": "28-1-2024 -",
+      "products": [],
+      "order_id": "or1706453042609"
+    },
+    {
+      "id": "2bfd",
+      "cName": "hghghgj",
+      "cMobile": "jhghjghgh",
+      "date": "28-1-2024 -",
+      "products": [],
+      "order_id": "or1706453292019"
+    },
+    {
+      "id": "e392",
+      "cName": "hjgjhghj",
+      "cMobile": "nnbnn",
+      "date": "28-1-2024 -",
+      "products": [],
+      "order_id": "or1706453575399"
+    },
+    {
+      "id": "75ba",
+      "cName": "hghghgj",
+      "cMobile": "jhggh",
+      "date": "28-1-2024 -",
+      "products": [],
+      "order_id": "or1706453630145"
+    },
+    {
+      "id": "15bc",
+      "cName": "",
+      "cMobile": "",
+      "date": "29-1-2024 -",
+      "products": [],
+      "order_id": "or1706511804726"
+    },
+    {
+      "id": "f50a",
+      "cName": "mani",
+      "cMobile": "hvhvh",
+      "date": "29-1-2024 ",
+      "products": [],
+      "order_id": "or1706527635598"
+    },
+    {
+      "id": "037a",
+      "cName": "mani",
+      "cMobile": "ghff",
+      "date": "29-1-2024 ",
+      "products": [],
+      "order_id": "or1706527774347"
+    },
+    {
+      "id": "107a",
+      "cName": "ravuiiiiii",
+      "cMobile": "8787878787",
+      "date": "29-1-2024 ",
+      "products": [],
+      "order_id": "or1706528595933"
+    },
+    {
+      "id": "53d3",
+      "cName": "",
+      "cMobile": "",
+      "date": "29-1-2024 ",
+      "products": [],
+      "order_id": "or1706528757669"
+    },
+    {
+      "id": "b58a",
+      "cName": "",
+      "cMobile": "",
+      "date": "29-1-2024 ",
+      "products": [],
+      "order_id": "or1706529363394"
+    },
+    {
+      "id": "c4ba",
+      "cName": "ravuiiiiii",
+      "cMobile": "",
+      "date": "29-1-2024 ",
+      "products": [],
+      "order_id": "or1706529889794"
+    },
+    {
+      "id": "5164",
+      "cName": "ravuiiiiii",
+      "cMobile": "8787878787",
+      "date": "29-1-2024 ",
+      "products": [],
+      "order_id": "or1706533334394"
+    },
+    {
+      "id": "28cb",
+      "cName": "ravuiiiiii",
+      "cMobile": "8787878787",
+      "date": "29-1-2024 ",
+      "products": [],
+      "order_id": "or1706534188311"
+    },
+    {
+      "id": "105e",
+      "cName": "nhbbvnb",
+      "cMobile": "7878787878",
+      "date": "29-1-2024 ",
+      "products": [],
+      "order_id": "or1706534348616"
+    },
+    {
+      "id": "cacd",
+      "cName": "ravuiiiiii",
+      "cMobile": "8787878787",
+      "date": "29-1-2024 ",
+      "products": [],
+      "order_id": "or1706534768522"
+    },
+    {
+      "id": "e9f8",
+      "cName": "ravuiiiiii",
+      "cMobile": "8787878787",
+      "date": "29-1-2024 ",
+      "products": [],
+      "order_id": "or1706535468065"
+    },
+    {
+      "id": "c4e1",
+      "cName": "ravuiiiiii",
+      "cMobile": "2",
+      "date": "29-1-2024 ",
+      "products": [],
+      "order_id": "or1706537085378"
+    },
+    {
+      "id": "74fe",
+      "cName": "hgghgy",
+      "cMobile": "jbjhjh",
+      "date": "29-1-2024 ",
+      "products": [],
+      "order_id": "or1706537581654",
+      "total_amount": 2752
+    },
+    {
+      "id": "9ed9",
+      "cName": "mani",
+      "cMobile": "7878787878",
+      "date": "31-1-2024 ",
+      "products": [],
+      "order_id": "or1706673913386"
+    },
+    {
+      "id": "e18b",
+      "cName": "mani",
+      "cMobile": "2",
+      "date": "31-1-2024 ",
+      "products": [],
+      "order_id": "or1706676975619"
+    },
+    {
+      "id": "61c8",
+      "cName": "ravuiiiiii",
+      "cMobile": "8787878787",
+      "date": "31-1-2024 ",
+      "products": [],
+      "order_id": "or1706684762315"
+    },
+    {
+      "id": "1d8a",
+      "cName": "ravuiiiiii",
+      "cMobile": "8787878787",
+      "date": "5-2-2024 ",
+      "products": [],
+      "order_id": "or1707122626508"
+    },
+    {
+      "id": "b968",
+      "cName": "mani",
+      "cMobile": "2",
+      "date": "5-2-2024 ",
+      "products": [],
+      "order_id": "or1707122655738"
+    },
+    {
+      "id": "28d1",
+      "cName": "ravi",
+      "cMobile": "9566363718",
+      "date": "5-2-2024 ",
+      "products": [],
+      "order_id": "or1707122685510"
+    },
+    {
+      "id": "1714",
+      "cName": "mani",
+      "cMobile": "8787878787",
+      "date": "6-2-2024 ",
+      "products": [],
+      "order_id": "or1707214102778"
+    },
+    {
+      "id": "3310",
+      "cName": "Coffee",
+      "cMobile": "500",
+      "date": "7-2-2024 ",
+      "products": [],
+      "order_id": "or1707295013970"
+    },
+    {
+      "id": "67fb",
+      "cName": "mani",
+      "cMobile": "500",
+      "date": "13-2-2024 ",
+      "products": [],
+      "order_id": "or1707811423875"
+    },
+    {
+      "id": "80bd",
+      "cName": "mani",
+      "cMobile": "500",
+      "date": "13-2-2024 ",
+      "products": [],
+      "order_id": "or1707812719205"
+    },
+    {
+      "id": "bf84",
+      "cName": "mani",
+      "cMobile": "123",
+      "date": "13-2-2024 ",
+      "products": [],
+      "order_id": "or1707832576656"
+    },
+    {
+      "id": "3227",
+      "cName": "Coffee",
+      "cMobile": "500",
+      "date": "13-2-2024 ",
+      "products": [],
+      "order_id": "or1707848160478",
+      "total_amount": 0
+    },
+    {
+      "id": "a082",
+      "cName": "ajai",
+      "cMobile": "343",
+      "date": "16-2-2024 ",
       "products": [
         {
           "product_id": "pr1",
           "product_name": "tomoto",
           "price": 344,
           "id": "f960",
-          "qty": 3
+          "qty": 500
+        },
+        {
+          "product_id": "pr3",
+          "product_name": "toooo",
+          "price": 333,
+          "id": "2032",
+          "qty": 43
+        },
+        {
+          "product_id": "pr1",
+          "product_name": "tomoto",
+          "price": 344,
+          "id": "f960",
+          "qty": 500
+        },
+        {
+          "product_id": "pr3",
+          "product_name": "toooo",
+          "price": 333,
+          "id": "2032",
+          "qty": 43
         }
       ],
-      "order_id": "or1707894381725",
+      "order_id": "or1708071884103",
+      "total_amount": 344666
+    },
+    {
+      "id": "5629",
+      "cName": "Mani",
+      "cMobile": "12345",
+      "date": "19-2-2024 ",
+      "products": [],
+      "order_id": "or1708360484148",
       "total_amount": 0
     },
     {
-      "id": "b728",
-      "cName": "Manikandan",
-      "cMobile": "9566363718",
-      "date": "14-2-2024 ",
-      "products": [],
-      "order_id": "or1707897361270"
-    },
-    {
-      "id": "65bf",
-      "cName": "karthi",
-      "cMobile": "9442970694",
-      "date": "14-2-2024 ",
-      "products": [],
-      "order_id": "or1707897477432",
-      "total_amount": 0
-    },
-    {
-      "id": "d405",
-      "cName": "karthi",
-      "cMobile": "9566363718",
-      "date": "14-2-2024 ",
+      "id": "46bf",
+      "cName": "Mani",
+      "cMobile": "12345",
+      "date": "20-2-2024 ",
       "products": [
         {
-          "id": "4e84",
-          "ProductType": "",
-          "product_name": "Coffee",
-          "selectCompany": "7bd1",
-          "ExpiryDate": "2024-02-14",
-          "ProductCode": "123",
-          "TotalStock": "500",
-          "price": "32",
-          "manufacturedate": "2024-02-14",
-          "discription": "its good",
-          "product_id": "br1707897216601",
-          "qty": 23
+          "id": "bff9",
+          "ProductType": "ravuiiiiii",
+          "product_name": "ravuiiiiii",
+          "SelectCompany": "ravuiiiiii",
+          "ExpiryDate": "2024-01-31",
+          "ProductCode": "8787878787",
+          "stock": "7878787878",
+          "price": 8787878787,
+          "manufacturedate": "2024-01-31",
+          "discription": "uthayam",
+          "product_id": "br1706673902943",
+          "qty": 34
         }
       ],
-      "order_id": "or1707897537997",
+      "order_id": "or1708439261864",
       "total_amount": 0
+    },
+    {
+      "id": "41d9",
+      "cName": "Mani",
+      "cMobile": "123",
+      "date": "20-2-2024 ",
+      "products": [],
+      "order_id": "or1708439582476",
+      "total_amount": 0
+    },
+    {
+      "id": "a0fe",
+      "cName": "mani",
+      "cMobile": "45",
+      "date": "20-2-2024 ",
+      "products": [
+        {
+          "id": "9a10",
+          "ProductType": null,
+          "product_name": "kasi",
+          "selectCompany": "27d4",
+          "ExpiryDate": "2024-02-20",
+          "ProductCode": "43",
+          "TotalStock": "43",
+          "price": "24",
+          "manufacturedate": "2024-02-20",
+          "discription": "fyf",
+          "product_id": "br1708439568585",
+          "qty": 2
+        },
+        {
+          "id": "9a10",
+          "ProductType": null,
+          "product_name": "kasi",
+          "selectCompany": "27d4",
+          "ExpiryDate": "2024-02-20",
+          "ProductCode": "43",
+          "TotalStock": "43",
+          "price": "24",
+          "manufacturedate": "2024-02-20",
+          "discription": "fyf",
+          "product_id": "br1708439568585",
+          "qty": 2
+        }
+      ],
+      "order_id": "or1708440092774",
+      "total_amount": 48
+    },
+    {
+      "id": "9e45",
+      "cName": "Mani",
+      "cMobile": "1234567",
+      "date": "20-2-2024 ",
+      "products": [
+        {
+          "id": "9a10",
+          "ProductType": null,
+          "product_name": "kasi",
+          "selectCompany": "27d4",
+          "ExpiryDate": "2024-02-20",
+          "ProductCode": "43",
+          "TotalStock": "43",
+          "price": "24",
+          "manufacturedate": "2024-02-20",
+          "discription": "fyf",
+          "product_id": "br1708439568585",
+          "qty": 2
+        },
+        {
+          "id": "9a10",
+          "ProductType": null,
+          "product_name": "kasi",
+          "selectCompany": "27d4",
+          "ExpiryDate": "2024-02-20",
+          "ProductCode": "43",
+          "TotalStock": "43",
+          "price": "24",
+          "manufacturedate": "2024-02-20",
+          "discription": "fyf",
+          "product_id": "br1708439568585",
+          "qty": 2
+        },
+        {
+          "id": "9a10",
+          "ProductType": null,
+          "product_name": "kasi",
+          "selectCompany": "27d4",
+          "ExpiryDate": "2024-02-20",
+          "ProductCode": "43",
+          "TotalStock": "43",
+          "price": "24",
+          "manufacturedate": "2024-02-20",
+          "discription": "fyf",
+          "product_id": "br1708439568585",
+          "qty": 2
+        }
+      ],
+      "order_id": "or1708440327549",
+      "total_amount": 96
+    },
+    {
+      "id": "2392",
+      "cName": "ravi",
+      "cMobile": "111",
+      "date": "20-2-2024 ",
+      "products": [
+        {
+          "id": "9a10",
+          "ProductType": null,
+          "product_name": "kasi",
+          "selectCompany": "27d4",
+          "ExpiryDate": "2024-02-20",
+          "ProductCode": "43",
+          "TotalStock": "43",
+          "price": "24",
+          "manufacturedate": "2024-02-20",
+          "discription": "fyf",
+          "product_id": "br1708439568585",
+          "qty": 2
+        }
+      ],
+      "order_id": "or1708440614725",
+      "total_amount": 48
+    },
+    {
+      "id": "8b72",
+      "cName": "Coffee",
+      "cMobile": "500",
+      "date": "20-2-2024 ",
+      "products": [
+        {
+          "id": "ceca",
+          "ProductType": "",
+          "product_name": "aran",
+          "selectCompany": "2a3c",
+          "ExpiryDate": "2024-02-20",
+          "ProductCode": "123",
+          "TotalStock": "23",
+          "price": "500",
+          "manufacturedate": "2024-02-20",
+          "discription": "it good",
+          "product_id": "br1708439517245",
+          "qty": 4
+        }
+      ],
+      "order_id": "or1708440779893",
+      "total_amount": 72
+    },
+    {
+      "id": "40df",
+      "cName": "Coffee",
+      "cMobile": "500",
+      "date": "20-2-2024 ",
+      "products": [
+        {
+          "id": "9a10",
+          "ProductType": null,
+          "product_name": "kasi",
+          "selectCompany": "27d4",
+          "ExpiryDate": "2024-02-20",
+          "ProductCode": "43",
+          "TotalStock": "43",
+          "price": "24",
+          "manufacturedate": "2024-02-20",
+          "discription": "fyf",
+          "product_id": "br1708439568585",
+          "qty": 5
+        }
+      ],
+      "order_id": "or1708441443791",
+      "total_amount": 1000
+    },
+    {
+      "id": "3a91",
+      "cName": "Coffee",
+      "cMobile": "123",
+      "date": "20-2-2024 ",
+      "products": [
+        {
+          "id": "ceca",
+          "ProductType": "",
+          "product_name": "aran",
+          "selectCompany": "2a3c",
+          "ExpiryDate": "2024-02-20",
+          "ProductCode": "123",
+          "TotalStock": "23",
+          "price": "500",
+          "manufacturedate": "2024-02-20",
+          "discription": "it good",
+          "product_id": "br1708439517245",
+          "qty": 2
+        }
+      ],
+      "order_id": "or1708441604248",
+      "total_amount": 0
+    },
+    {
+      "id": "e55f",
+      "cName": "Coffee",
+      "cMobile": "11",
+      "date": "20-2-2024 ",
+      "products": [
+        {
+          "id": "ceca",
+          "ProductType": "",
+          "product_name": "aran",
+          "selectCompany": "2a3c",
+          "ExpiryDate": "2024-02-20",
+          "ProductCode": "123",
+          "TotalStock": "23",
+          "price": "500",
+          "manufacturedate": "2024-02-20",
+          "discription": "it good",
+          "product_id": "br1708439517245",
+          "qty": 2
+        }
+      ],
+      "order_id": "or1708441892257",
+      "total_amount": 0
+    },
+    {
+      "id": "24a5",
+      "cName": "Coffee",
+      "cMobile": "1234",
+      "date": "20-2-2024 ",
+      "products": [
+        {
+          "id": "9a10",
+          "ProductType": null,
+          "product_name": "kasi",
+          "selectCompany": "27d4",
+          "ExpiryDate": "2024-02-20",
+          "ProductCode": "43",
+          "TotalStock": "43",
+          "price": "24",
+          "manufacturedate": "2024-02-20",
+          "discription": "fyf",
+          "product_id": "br1708439568585",
+          "qty": 4
+        }
+      ],
+      "order_id": "or1708442487108",
+      "total_amount": 1000
+    },
+    {
+      "id": "2134",
+      "cName": "Coffee",
+      "cMobile": "500",
+      "date": "20-2-2024 ",
+      "products": [
+        {
+          "id": "ceca",
+          "ProductType": "",
+          "product_name": "aran",
+          "selectCompany": "2a3c",
+          "ExpiryDate": "2024-02-20",
+          "ProductCode": "123",
+          "TotalStock": "23",
+          "price": "500",
+          "manufacturedate": "2024-02-20",
+          "discription": "it good",
+          "product_id": "br1708439517245",
+          "qty": 3
+        },
+        {
+          "id": "9a10",
+          "ProductType": null,
+          "product_name": "kasi",
+          "selectCompany": "27d4",
+          "ExpiryDate": "2024-02-20",
+          "ProductCode": "43",
+          "TotalStock": "43",
+          "price": "24",
+          "manufacturedate": "2024-02-20",
+          "discription": "fyf",
+          "product_id": "br1708439568585",
+          "qty": 4
+        }
+      ],
+      "order_id": "or1708442818680",
+      "total_amount": 1860
     }
   ],
   "products": [
     {
-      "id": "4e84",
+      "id": "ceca",
       "ProductType": "",
-      "product_name": "Coffee",
-      "selectCompany": "7bd1",
-      "ExpiryDate": "2024-02-14",
+      "product_name": "aran",
+      "selectCompany": "2a3c",
+      "ExpiryDate": "2024-02-20",
       "ProductCode": "123",
-      "TotalStock": "500",
-      "price": "32",
-      "manufacturedate": "2024-02-14",
-      "discription": "its good",
-      "product_id": "br1707897216601"
+      "TotalStock": "23",
+      "price": "500",
+      "manufacturedate": "2024-02-20",
+      "discription": "it good",
+      "product_id": "br1708439517245"
+    },
+    {
+      "id": "9a10",
+      "ProductType": null,
+      "product_name": "kasi",
+      "selectCompany": "27d4",
+      "ExpiryDate": "2024-02-20",
+      "ProductCode": "43",
+      "TotalStock": "43",
+      "price": "24",
+      "manufacturedate": "2024-02-20",
+      "discription": "fyf",
+      "product_id": "br1708439568585"
     }
   ]
 }

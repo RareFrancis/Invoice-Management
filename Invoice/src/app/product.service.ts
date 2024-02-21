@@ -14,7 +14,7 @@ export class ProductService {
   }
 
   getProducts() {
-    return this.http.get<any[]>('http://localhost:3000/posts');
+    return this.http.get<any[]>('http://localhost:3000/products');
   }
 
 

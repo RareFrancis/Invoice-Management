@@ -11,7 +11,7 @@ export class OrderComponent implements OnInit{
 report: any;
   product: any;
   data: any;
-  
+  id: any;  
 constructor(private http:HttpClient ,private order:CategoryService){}
 
 ngOnInit() {
@@ -32,6 +32,28 @@ ngOnInit() {
 //     console.error('Error fetching order data:', error);
 //   });
 // }
+deleteData(id: any) {
+  // Send HTTP DELETE request
+  console.log(id);
+  
+  this.http.delete(`http://localhost:3000/customerDetailes/${id}`).subscribe(
+    (res) => {
+      // Update the data after successful deletion
+      // this.getData();
+      console.log(res)
+      this.http.get("http://localhost:3000/customerDetailes").subscribe((res:any)=>{
+        this.report = res;
+          
+        });
+    },
+    error => {
+      console.error('Error deleting product:', error);
+    }
+  );
+}
+  getData() {
+    throw new Error('Method not implemented.');
+  }
 }
 
 

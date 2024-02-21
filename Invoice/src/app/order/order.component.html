@@ -13,7 +13,6 @@
         <th scope="col">Price per unit</th>
         <th scope="col">Total units</th>
         <th scope="col">Total cost</th>
-        <th scope="col">total</th>
 
       </tr>
       <tbody *ngFor="let pro of report">
@@ -26,7 +25,7 @@
         <td>{{pros.price}}</td>
         <td>{{pros.qty}}</td>
         <td>{{pros.qty * pros.price}}</td>
-        <th>{{pro.Total}}</th>
+        <td><button type="button" (click)="deleteData(pro.id)" class="d-block  btn btn-danger">Deleted</button></td>
       </tr>
     </tbody>
     </table>
